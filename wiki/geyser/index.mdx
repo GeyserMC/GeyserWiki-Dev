@@ -1,7 +1,10 @@
 ---
 title: Overview
 permalink: /geyser/
-description: 'Geyser is a bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition, closing the gap from those wanting to play true cross-platform.'
+description: >-
+  Geyser is a bridge between Minecraft: Bedrock Edition and Minecraft: Java
+  Edition, closing the gap from those wanting to play true cross-platform.
+crowdin_page_id: 79ac5abd-e047-47cd-8e3c-106be7d9d090
 ---
 
 import { Versions } from '@site/src/components/Versions'
@@ -16,10 +19,11 @@ import DocCardList from '@theme/DocCardList'
 
 _A bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition._
 
-**Currently, supporting Minecraft Bedrock <Versions platform="bedrock"/> and Minecraft Java <Versions platform="java"/>**
+**Currently, supporting Minecraft Bedrock <Versions.bedrock/> and Minecraft Java <Versions.java/>**
 
 Here are a few selected guides that will help you get started with Geyser!
 
+````mdx-code-block
 <DocCardList items={[
     'setup',
     'supported-versions',
@@ -36,3 +40,4 @@ Here are a few selected guides that will help you get started with Geyser!
         docId: 'geyser/' + id
     }
 })} />
+````

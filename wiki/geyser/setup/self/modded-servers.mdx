@@ -2,13 +2,14 @@
 title: Geyser Self-Hosted Modded Setup
 description: Learn how to set up Geyser on your self-hosted Fabric or NeoForge server.
 hide_title: true
+crowdin_page_id: 819cc5c5-b015-445b-aefe-840b30e46166
 ---
 
 import { Versions } from '@site/src/components/Versions'
 
 :::caution
-Geyser-Fabric and Geyser-NeoForge run  **only** on a <Versions platform="java"/> server.
-See [this page](/wiki/geyser/supported-versions#fabric-neoforge-servers) for more details.
+Geyser-Fabric and Geyser-NeoForge run  **only** on a <Versions.java/> server.
+See [this page](/wiki/geyser/supported-versions#using-geyser-on-fabric-neoforge-servers-not-on-the-latest-minecraft-version) for more details.
 :::
 
 :::info
@@ -55,5 +56,5 @@ Geyser only works with **server-side** mods. Mods that require a client-side ins
 5. Verify whether connections from other networks are possible by running `geyser connectiontest <ip> <port>` in the console.
 
 :::info
-To allow Bedrock Edition players to join your server without needing to log in to a paid Java Edition account, you can use <a href="/wiki/floodgate/setup/">Floodgate</a>.
+To allow Bedrock Edition players to join your server without needing to log in to a paid Java Edition account, you can use [Floodgate](/wiki/floodgate/setup/).
 :::

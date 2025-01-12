@@ -1,6 +1,9 @@
 ---
 title: Forms and Cumulus
-description: Cumulus is the Forms API used in Geyser and Floodgate, and is available for use in projects that extend Geyser or Floodgate.
+description: >-
+  Cumulus is the Forms API used in Geyser and Floodgate, and is available for
+  use in projects that extend Geyser or Floodgate.
+crowdin_page_id: 14f7c849-caea-462d-bcbb-2d987cca37f4
 ---
 
 # What is Cumulus?
@@ -10,9 +13,9 @@ Cumulus is the Forms API that we use in Geyser and Floodgate.
 The source code is available [here](https://github.com/GeyserMC/Cumulus). You can access the Cumulus API through the [Floodgate API](/wiki/floodgate/api/), or the [Geyser API](/wiki/geyser/api).
 
 Bedrock knows three types of Forms:
-* ModalForm
-* SimpleForm
-* CustomForm
+- ModalForm
+- SimpleForm
+- CustomForm
 
 We'll discuss them one by one starting with the easiest and ending with the least easy form type.  
 After that, you get an overview of every single component.  

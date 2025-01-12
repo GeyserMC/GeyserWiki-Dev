@@ -1,6 +1,7 @@
 ---
 title: FloodgatePlayer
 description: FloodgatePlayer is the main class for accessing bedrock player data.
+crowdin_page_id: dda466f5-f41f-47f1-b7b6-2463ce1e988f
 ---
 
 FloodgatePlayer is something that every player who's connect through Floodgate has.  

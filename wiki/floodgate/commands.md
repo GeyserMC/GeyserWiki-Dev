@@ -1,6 +1,7 @@
 ---
 title: Commands
 description: Commands and their associated permission nodes for Floodgate.
+crowdin_page_id: c94605f1-a355-43ed-9f76-fe2acb30dc3f
 ---
 
 | Command | Permission | Description |

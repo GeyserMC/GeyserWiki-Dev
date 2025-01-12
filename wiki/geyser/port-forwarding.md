@@ -1,9 +1,11 @@
 ---
 title: Port forwarding
 description: Information on how to set up UDP port forwarding required for Geyser.
+crowdin_sync: true
+crowdin_page_id: be7c5a22-1e8e-4ffe-8d13-7d763dd75886
 ---
 
-# Port forwarding
+# Port forwarding {#port-forwarding}
 This page contains information on how to set up port forwarding required for Geyser to work when self-hosting.
 There are also guides for specific configurations, such as Docker/Pterodactyl, or on specific VPS/KVM providers, such as OVH or Oracle Cloud. 
 
@@ -23,7 +25,7 @@ Do note: if you do not have a static IP address, your IP address may change over
 
 Some ISPs (Internet Service Providers) block certain ports, or don't allow you to open ports (e.g. by using CGNAT, which doesn't allow you to open a port with a dynamic IP).
 Other ISPs may require you to pay extra for a static IP address.   
-As an alternative to port forwarding, you can use <a href="/wiki/geyser/playit-gg/">playit.gg</a> to create a tunnel.
+As an alternative to port forwarding, you can use [playit.gg](/wiki/geyser/playit-gg/) to create a tunnel.
 
 :::
 
@@ -142,7 +144,7 @@ SoYouStart (subsidiary of OVH):
 4. Select "minecraftPocketEdition" in the dropdown list and enter the target UDP ports.
 5. Save and wait a few seconds for the changes to come into effect.
 
-#### OVH/SoYouStart Game Firewall Incompatibility Issue
+#### OVH/SoYouStart Game Firewall Incompatibility Issue {#ovhsoyoustart-game-firewall-incompatibility-issue}
 The OVH GAME filter type `minecraftPocketEdition` currently does not work and you must use the `Other` type.  
 
 If you would like to continue using the filter type `minecraftPocketEdition`, you may disable the incompatible security feature by adding `-DGeyser.RakSendCookie=false` to your Java server's (or Geyser Standalone proxy's) startup flags.

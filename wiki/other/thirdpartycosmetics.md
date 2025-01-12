@@ -1,6 +1,7 @@
 ---
 title: ThirdPartyCosmetics
 description: An optional Bedrock resource pack to extend Geyser functionality.
+crowdin_page_id: d5a3bd38-3b97-4068-8051-f0247e12acc1
 ---
 
 ## [Download here](/download/?project=other-projects&thirdpartycosmetics=expanded) {#download-here}

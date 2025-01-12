@@ -1,9 +1,10 @@
 ---
-title: "Four Years of Geyser"
-slug: "four-years-of-geyser"
+title: Four Years of Geyser
+slug: four-years-of-geyser
 authors: RednedEpic
 hide_table_of_contents: false
-description: "Geyser is now four years old!"
+description: Geyser is now four years old!
+crowdin_page_id: 67cfbd70-8366-42ed-b564-b84ed9ce65b5
 ---
 
 Hi everyone,

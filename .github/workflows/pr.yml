@@ -25,7 +25,7 @@ jobs:
           cache: yarn
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
 
       - uses: actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57
         with:
@@ -38,7 +38,7 @@ jobs:
             ${{ runner.os }}-docusaurus-${{ hashFiles('**/yarn.lock') }}
 
       - name: Build website
-        run: yarn build
+        run: yarn build --locale en
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa

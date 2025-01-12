@@ -1,0 +1,50 @@
+{
+  "title": {
+    "message": "crwdns28833:0crwdne28833:0",
+    "description": "crwdns28835:0crwdne28835:0"
+  },
+  "logo.alt": {
+    "message": "crwdns28837:0crwdne28837:0",
+    "description": "crwdns28839:0crwdne28839:0"
+  },
+  "item.label.Wiki": {
+    "message": "crwdns28841:0crwdne28841:0",
+    "description": "crwdns28843:0crwdne28843:0"
+  },
+  "item.label.Blog": {
+    "message": "crwdns28845:0crwdne28845:0",
+    "description": "crwdns28847:0crwdne28847:0"
+  },
+  "item.label.Utilities": {
+    "message": "crwdns28849:0crwdne28849:0",
+    "description": "crwdns28851:0crwdne28851:0"
+  },
+  "item.label.Download": {
+    "message": "crwdns28853:0crwdne28853:0",
+    "description": "crwdns28855:0crwdne28855:0"
+  },
+  "item.label.Geyser": {
+    "message": "crwdns28857:0crwdne28857:0",
+    "description": "crwdns28859:0crwdne28859:0"
+  },
+  "item.label.Floodgate": {
+    "message": "crwdns28861:0crwdne28861:0",
+    "description": "crwdns28863:0crwdne28863:0"
+  },
+  "item.label.REST APIs": {
+    "message": "crwdns28865:0crwdne28865:0",
+    "description": "crwdns28867:0crwdne28867:0"
+  },
+  "item.label.Other": {
+    "message": "crwdns28869:0crwdne28869:0",
+    "description": "crwdns28871:0crwdne28871:0"
+  },
+  "item.label.Config Editor": {
+    "message": "crwdns28873:0crwdne28873:0",
+    "description": "crwdns28875:0crwdne28875:0"
+  },
+  "item.label.Dump Viewer": {
+    "message": "crwdns28877:0crwdne28877:0",
+    "description": "crwdns28879:0crwdne28879:0"
+  }
+}

@@ -1,6 +1,9 @@
 ---
 title: Geyser and Secure Chat
-description: Information about disabling secure chat to allow Bedrock players to chat on Java servers.
+description: >-
+  Information about disabling secure chat to allow Bedrock players to chat on
+  Java servers.
+crowdin_page_id: 09dff783-e1b8-4217-a706-cbf08cd699fd
 ---
 
 In the 1.19 Java Edition updates, a mechanism for reporting player chat messages to Mojang was implemented. 

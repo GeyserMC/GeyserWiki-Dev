@@ -1,0 +1,190 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.apiSidebar.category.api.geysermc.org": {
+    "message": "api.geysermc.org",
+    "description": "The label for category api.geysermc.org in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.api.geysermc.org.link.generated-index.title": {
+    "message": "Global API",
+    "description": "The generated-index page title for category api.geysermc.org in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.api.geysermc.org.link.generated-index.description": {
+    "message": "Global API",
+    "description": "The generated-index page description for category api.geysermc.org in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.health": {
+    "message": "health",
+    "description": "The label for category health in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.link": {
+    "message": "link",
+    "description": "The label for category link in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.stats": {
+    "message": "stats",
+    "description": "The label for category stats in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.xbox": {
+    "message": "xbox",
+    "description": "The label for category xbox in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.skin": {
+    "message": "skin",
+    "description": "The label for category skin in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.utils": {
+    "message": "utils",
+    "description": "The label for category utils in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.UNTAGGED": {
+    "message": "UNTAGGED",
+    "description": "The label for category UNTAGGED in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.download.geysermc.org": {
+    "message": "download.geysermc.org",
+    "description": "The label for category download.geysermc.org in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.download.geysermc.org.link.generated-index.title": {
+    "message": "Downloads API",
+    "description": "The generated-index page title for category download.geysermc.org in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.download.geysermc.org.link.generated-index.description": {
+    "message": "Downloads API",
+    "description": "The generated-index page description for category download.geysermc.org in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.projects-controller": {
+    "message": "projects-controller",
+    "description": "The label for category projects-controller in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.project-controller": {
+    "message": "project-controller",
+    "description": "The label for category project-controller in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.version-controller": {
+    "message": "version-controller",
+    "description": "The label for category version-controller in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.version-builds-controller": {
+    "message": "version-builds-controller",
+    "description": "The label for category version-builds-controller in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.version-build-controller": {
+    "message": "version-build-controller",
+    "description": "The label for category version-build-controller in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.download-controller": {
+    "message": "download-controller",
+    "description": "The label for category download-controller in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.doc.Simple server online check": {
+    "message": "Simple server online check",
+    "description": "The label for the doc item Simple server online check in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-health-controller-health"
+  },
+  "sidebar.apiSidebar.doc.GlobalApiWeb.Api.LinkController.get_bedrock_link_v1": {
+    "message": "GlobalApiWeb.Api.LinkController.get_bedrock_link_v1",
+    "description": "The label for the doc item GlobalApiWeb.Api.LinkController.get_bedrock_link_v1 in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-link-controller-get-bedrock-link-v-1"
+  },
+  "sidebar.apiSidebar.doc.GlobalApiWeb.Api.LinkController.get_java_link_v1": {
+    "message": "GlobalApiWeb.Api.LinkController.get_java_link_v1",
+    "description": "The label for the doc item GlobalApiWeb.Api.LinkController.get_java_link_v1 in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-link-controller-get-java-link-v-1"
+  },
+  "sidebar.apiSidebar.doc.Get linked Java account from Bedrock xuid": {
+    "message": "Get linked Java account from Bedrock xuid",
+    "description": "The label for the doc item Get linked Java account from Bedrock xuid in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-link-controller-get-bedrock-link-v-2"
+  },
+  "sidebar.apiSidebar.doc.Get linked Bedrock account from Java UUID": {
+    "message": "Get linked Bedrock account from Java UUID",
+    "description": "The label for the doc item Get linked Bedrock account from Java UUID in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-link-controller-get-java-link-v-2"
+  },
+  "sidebar.apiSidebar.doc.Get all publicly available Global Api statistics": {
+    "message": "Get all publicly available Global Api statistics",
+    "description": "The label for the doc item Get all publicly available Global Api statistics in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-stats-controller-get-all-stats-2"
+  },
+  "sidebar.apiSidebar.doc.GlobalApiWeb.Api.XboxController.get_gamertag_v1": {
+    "message": "GlobalApiWeb.Api.XboxController.get_gamertag_v1",
+    "description": "The label for the doc item GlobalApiWeb.Api.XboxController.get_gamertag_v1 in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-xbox-controller-get-gamertag-v-1"
+  },
+  "sidebar.apiSidebar.doc.GlobalApiWeb.Api.XboxController.get_xuid_v1": {
+    "message": "GlobalApiWeb.Api.XboxController.get_xuid_v1",
+    "description": "The label for the doc item GlobalApiWeb.Api.XboxController.get_xuid_v1 in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-xbox-controller-get-xuid-v-1"
+  },
+  "sidebar.apiSidebar.doc.Get the gamertag from a xuid": {
+    "message": "Get the gamertag from a xuid",
+    "description": "The label for the doc item Get the gamertag from a xuid in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-xbox-controller-get-gamertag-v-2"
+  },
+  "sidebar.apiSidebar.doc.Get the xuid from a gamertag": {
+    "message": "Get the xuid from a gamertag",
+    "description": "The label for the doc item Get the xuid from a gamertag in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-xbox-controller-get-xuid-v-2"
+  },
+  "sidebar.apiSidebar.doc.Get a list of the most recently uploaded skins": {
+    "message": "Get a list of the most recently uploaded skins",
+    "description": "The label for the doc item Get a list of the most recently uploaded skins in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-skin-controller-get-recent-uploads"
+  },
+  "sidebar.apiSidebar.doc.Get the most recently converted skin of a Bedrock player": {
+    "message": "Get the most recently converted skin of a Bedrock player",
+    "description": "The label for the doc item Get the most recently converted skin of a Bedrock player in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-skin-controller-get-skin"
+  },
+  "sidebar.apiSidebar.doc.Utility endpoint to get either a Java UUID or a Bedrock xuid": {
+    "message": "Utility endpoint to get either a Java UUID or a Bedrock xuid",
+    "description": "The label for the doc item Utility endpoint to get either a Java UUID or a Bedrock xuid in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-utils-controller-get-bedrock-or-java-uuid"
+  },
+  "sidebar.apiSidebar.doc.GlobalApiWeb.Api.RenderController.get_front_texture": {
+    "message": "GlobalApiWeb.Api.RenderController.get_front_texture",
+    "description": "The label for the doc item GlobalApiWeb.Api.RenderController.get_front_texture in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-render-controller-get-front-texture"
+  },
+  "sidebar.apiSidebar.doc.GlobalApiWeb.Api.RenderController.get_raw_texture": {
+    "message": "GlobalApiWeb.Api.RenderController.get_raw_texture",
+    "description": "The label for the doc item GlobalApiWeb.Api.RenderController.get_raw_texture in sidebar apiSidebar, linking to the doc api/api.geysermc.org/global-api-web-api-render-controller-get-raw-texture"
+  },
+  "sidebar.apiSidebar.doc.Gets a list of all available projects.": {
+    "message": "Gets a list of all available projects.",
+    "description": "The label for the doc item Gets a list of all available projects. in sidebar apiSidebar, linking to the doc api/downloads.geysermc.org/projects"
+  },
+  "sidebar.apiSidebar.doc.Gets information about a project.": {
+    "message": "Gets information about a project.",
+    "description": "The label for the doc item Gets information about a project. in sidebar apiSidebar, linking to the doc api/downloads.geysermc.org/project"
+  },
+  "sidebar.apiSidebar.doc.Gets information about a version.": {
+    "message": "Gets information about a version.",
+    "description": "The label for the doc item Gets information about a version. in sidebar apiSidebar, linking to the doc api/downloads.geysermc.org/version"
+  },
+  "sidebar.apiSidebar.doc.Gets all available builds for a project's version.": {
+    "message": "Gets all available builds for a project's version.",
+    "description": "The label for the doc item Gets all available builds for a project's version. in sidebar apiSidebar, linking to the doc api/downloads.geysermc.org/builds"
+  },
+  "sidebar.apiSidebar.doc.Gets information related to a specific build.": {
+    "message": "Gets information related to a specific build.",
+    "description": "The label for the doc item Gets information related to a specific build. in sidebar apiSidebar, linking to the doc api/downloads.geysermc.org/build-latest"
+  },
+  "sidebar.apiSidebar.doc.Downloads the given file from a build's data.": {
+    "message": "Downloads the given file from a build's data.",
+    "description": "The label for the doc item Downloads the given file from a build's data. in sidebar apiSidebar, linking to the doc api/downloads.geysermc.org/download-latest"
+  },
+  "sidebar.geyserSidebar.category.Setup": {
+    "message": "Einrichtung",
+    "description": "The label for category Setup in sidebar geyserSidebar"
+  },
+  "sidebar.geyserSidebar.category.Common Issues": {
+    "message": "Common Issues",
+    "description": "The label for category Common Issues in sidebar geyserSidebar"
+  },
+  "sidebar.geyserSidebar.category.Configuring Geyser": {
+    "message": "Configuring Geyser",
+    "description": "The label for category Configuring Geyser in sidebar geyserSidebar"
+  },
+  "sidebar.geyserSidebar.category.FAQ": {
+    "message": "FAQ",
+    "description": "The label for category FAQ in sidebar geyserSidebar"
+  },
+  "sidebar.geyserSidebar.category.Geyser API": {
+    "message": "Geyser API",
+    "description": "The label for category Geyser API in sidebar geyserSidebar"
+  },
+  "sidebar.geyserSidebar.category.Custom Resource Packs": {
+    "message": "Custom Resource Packs",
+    "description": "The label for category Custom Resource Packs in sidebar geyserSidebar"
+  }
+}

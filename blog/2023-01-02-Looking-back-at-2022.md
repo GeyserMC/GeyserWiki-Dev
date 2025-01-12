@@ -1,9 +1,10 @@
 ---
-title: "Looking back at 2022"
-slug: "looking-back-at-2022"
+title: Looking back at 2022
+slug: looking-back-at-2022
 authors: Camotoy
 hide_table_of_contents: false
-description: "A look back at the year of 2022 for Geyser."
+description: A look back at the year of 2022 for Geyser.
+crowdin_page_id: 921bcb8d-70cb-49d1-9f83-deb59979eafa
 ---
 Hi.
 

@@ -1,6 +1,10 @@
 ---
 title: Floodgate API
-description: Floodgate has an API to allow servers to get information about the Bedrock client. It also allows plugins access to Cumulus, an API to send and collect form data from Bedrock players.
+description: >-
+  Floodgate has an API to allow servers to get information about the Bedrock
+  client. It also allows plugins access to Cumulus, an API to send and collect
+  form data from Bedrock players.
+crowdin_page_id: a610e670-c667-4028-9d22-dfd79e299424
 ---
 
 Floodgate has an API to extend what is possible and allow servers to get information about the Bedrock client. It also allows other plugins access to [Cumulus](/wiki/geyser/forms/)

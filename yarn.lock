@@ -2890,6 +2890,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@crowdin/crowdin-api-client@npm:1.41.0":
+  version: 1.41.0
+  resolution: "@crowdin/crowdin-api-client@npm:1.41.0"
+  dependencies:
+    axios: "npm:^1"
+  checksum: 10c0/c5ac2b704bcd1beaf2e7465cb78386f6b4a0f89a50b588226f1c48afa3255e8237bd5498bfededd686984bdd79f10469666d336a5814aff6df5d7846f9b48e12
+  languageName: node
+  linkType: hard
+
 "@csstools/cascade-layer-name-parser@npm:^2.0.4":
   version: 2.0.4
   resolution: "@csstools/cascade-layer-name-parser@npm:2.0.4"
@@ -3733,7 +3742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/module-type-aliases@npm:3.6.3, @docusaurus/module-type-aliases@npm:^3.6.3":
+"@docusaurus/module-type-aliases@npm:3.6.3":
   version: 3.6.3
   resolution: "@docusaurus/module-type-aliases@npm:3.6.3"
   dependencies:
@@ -4051,7 +4060,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/tsconfig@npm:^3.6.3":
+"@docusaurus/tsconfig@npm:3.6.3":
   version: 3.6.3
   resolution: "@docusaurus/tsconfig@npm:3.6.3"
   checksum: 10c0/0ff7af6e0fe267d22c2e1c439d887aef1668b626731b07b4053c6fb5377f0faeec74d69f30d139522f6de74ba73d4462242400564024faa7ab0076c3af83d5d9
@@ -4078,7 +4087,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/types@npm:3.6.3, @docusaurus/types@npm:^3.6.3":
+"@docusaurus/types@npm:3.6.3":
   version: 3.6.3
   resolution: "@docusaurus/types@npm:3.6.3"
   dependencies:
@@ -4417,7 +4426,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kas-tle/docusaurus-og@https://github.com/Kas-tle/docusaurus-og":
+"@kas-tle/docusaurus-og@https://github.com/Kas-tle/docusaurus-og#55f297255a7bd0610f46986f1e57f938b4c7a23b":
   version: 1.0.0-alpha.132
   resolution: "@kas-tle/docusaurus-og@https://github.com/Kas-tle/docusaurus-og.git#commit=55f297255a7bd0610f46986f1e57f938b4c7a23b"
   dependencies:
@@ -5167,6 +5176,15 @@ __metadata:
   dependencies:
     "@types/estree": "npm:*"
   checksum: 10c0/5a65a1d7e91fc95703f0a717897be60fa7ccd34b17f5462056274a246e6690259fe0a1baabc86fd3260354f87245cb3dc483346d7faad2b78fc199763978ede9
+  languageName: node
+  linkType: hard
+
+"@types/adm-zip@npm:0.5.7":
+  version: 0.5.7
+  resolution: "@types/adm-zip@npm:0.5.7"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: 10c0/6ba62bd8f4a6e7ffdad08d951c65c4f69161c2b96cc34249dcf3c448dca85749409407b297472d5c66b711325de89012e8607b74c87d99ec23e9b7a44b6c71c6
   languageName: node
   linkType: hard
 
@@ -6043,6 +6061,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"adm-zip@npm:0.5.16":
+  version: 0.5.16
+  resolution: "adm-zip@npm:0.5.16"
+  checksum: 10c0/6f10119d4570c7ba76dcf428abb8d3f69e63f92e51f700a542b43d4c0130373dd2ddfc8f85059f12d4a843703a90c3970cfd17876844b4f3f48bf042bfa6b49f
+  languageName: node
+  linkType: hard
+
 "agent-base@npm:^7.0.2":
   version: 7.1.1
   resolution: "agent-base@npm:7.1.1"
@@ -6361,6 +6386,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"asynckit@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "asynckit@npm:0.4.0"
+  checksum: 10c0/d73e2ddf20c4eb9337e1b3df1a0f6159481050a5de457c55b14ea2e5cb6d90bb69e004c9af54737a5ee0917fcf2c9e25de67777bbe58261847846066ba75bc9d
+  languageName: node
+  linkType: hard
+
 "at-least-node@npm:^1.0.0":
   version: 1.0.0
   resolution: "at-least-node@npm:1.0.0"
@@ -6392,6 +6424,17 @@ __metadata:
   dependencies:
     possible-typed-array-names: "npm:^1.0.0"
   checksum: 10c0/d07226ef4f87daa01bd0fe80f8f310982e345f372926da2e5296aecc25c41cab440916bbaa4c5e1034b453af3392f67df5961124e4b586df1e99793a1374bdb2
+  languageName: node
+  linkType: hard
+
+"axios@npm:^1":
+  version: 1.7.9
+  resolution: "axios@npm:1.7.9"
+  dependencies:
+    follow-redirects: "npm:^1.15.6"
+    form-data: "npm:^4.0.0"
+    proxy-from-env: "npm:^1.1.0"
+  checksum: 10c0/b7a41e24b59fee5f0f26c1fc844b45b17442832eb3a0fb42dd4f1430eb4abc571fe168e67913e8a1d91c993232bd1d1ab03e20e4d1fee8c6147649b576fc1b0b
   languageName: node
   linkType: hard
 
@@ -7231,6 +7274,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"combined-stream@npm:^1.0.8":
+  version: 1.0.8
+  resolution: "combined-stream@npm:1.0.8"
+  dependencies:
+    delayed-stream: "npm:~1.0.0"
+  checksum: 10c0/0dbb829577e1b1e839fa82b40c07ffaf7de8a09b935cadd355a73652ae70a88b4320db322f6634a4ad93424292fa80973ac6480986247f1734a1137debf271d5
+  languageName: node
+  linkType: hard
+
 "comma-separated-tokens@npm:^2.0.0":
   version: 2.0.3
   resolution: "comma-separated-tokens@npm:2.0.3"
@@ -8026,6 +8078,13 @@ __metadata:
     rimraf: "npm:^3.0.2"
     slash: "npm:^3.0.0"
   checksum: 10c0/8a095c5ccade42c867a60252914ae485ec90da243d735d1f63ec1e64c1cfbc2b8810ad69a29ab6326d159d4fddaa2f5bad067808c42072351ec458efff86708f
+  languageName: node
+  linkType: hard
+
+"delayed-stream@npm:~1.0.0":
+  version: 1.0.0
+  resolution: "delayed-stream@npm:1.0.0"
+  checksum: 10c0/d758899da03392e6712f042bec80aa293bbe9e9ff1b2634baae6a360113e708b91326594c8a486d475c69d6259afb7efacdc3537bfcda1c6c648e390ce601b19
   languageName: node
   linkType: hard
 
@@ -9066,6 +9125,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"follow-redirects@npm:^1.15.6":
+  version: 1.15.9
+  resolution: "follow-redirects@npm:1.15.9"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: 10c0/5829165bd112c3c0e82be6c15b1a58fa9dcfaede3b3c54697a82fe4a62dd5ae5e8222956b448d2f98e331525f05d00404aba7d696de9e761ef6e42fdc780244f
+  languageName: node
+  linkType: hard
+
 "for-each@npm:^0.3.3":
   version: 0.3.3
   resolution: "for-each@npm:0.3.3"
@@ -9127,6 +9196,17 @@ __metadata:
   version: 2.1.4
   resolution: "form-data-encoder@npm:2.1.4"
   checksum: 10c0/4c06ae2b79ad693a59938dc49ebd020ecb58e4584860a90a230f80a68b026483b022ba5e4143cff06ae5ac8fd446a0b500fabc87bbac3d1f62f2757f8dabcaf7
+  languageName: node
+  linkType: hard
+
+"form-data@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "form-data@npm:4.0.1"
+  dependencies:
+    asynckit: "npm:^0.4.0"
+    combined-stream: "npm:^1.0.8"
+    mime-types: "npm:^2.1.12"
+  checksum: 10c0/bb102d570be8592c23f4ea72d7df9daa50c7792eb0cf1c5d7e506c1706e7426a4e4ae48a35b109e91c85f1c0ec63774a21ae252b66f4eb981cb8efef7d0463c8
   languageName: node
   linkType: hard
 
@@ -9275,18 +9355,21 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "geyser-wiki@workspace:."
   dependencies:
+    "@crowdin/crowdin-api-client": "npm:1.41.0"
     "@docusaurus/core": "npm:3.6.3"
-    "@docusaurus/module-type-aliases": "npm:^3.6.3"
+    "@docusaurus/module-type-aliases": "npm:3.6.3"
     "@docusaurus/preset-classic": "npm:3.6.3"
-    "@docusaurus/tsconfig": "npm:^3.6.3"
-    "@docusaurus/types": "npm:^3.6.3"
+    "@docusaurus/tsconfig": "npm:3.6.3"
+    "@docusaurus/types": "npm:3.6.3"
     "@fortawesome/fontawesome-svg-core": "npm:6.5.1"
     "@fortawesome/free-brands-svg-icons": "npm:6.5.1"
     "@fortawesome/free-regular-svg-icons": "npm:6.5.1"
     "@fortawesome/free-solid-svg-icons": "npm:6.5.1"
     "@fortawesome/react-fontawesome": "npm:0.2.0"
-    "@kas-tle/docusaurus-og": "https://github.com/Kas-tle/docusaurus-og"
+    "@kas-tle/docusaurus-og": "https://github.com/Kas-tle/docusaurus-og#55f297255a7bd0610f46986f1e57f938b4c7a23b"
     "@mdx-js/react": "npm:3.0.0"
+    "@types/adm-zip": "npm:0.5.7"
+    adm-zip: "npm:0.5.16"
     clsx: "npm:1.2.1"
     docusaurus-plugin-openapi-docs: "npm:4.3.0"
     docusaurus-plugin-sass: "npm:0.2.5"
@@ -12536,7 +12619,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime-types@npm:2.1.35, mime-types@npm:^2.1.27, mime-types@npm:^2.1.31, mime-types@npm:~2.1.17, mime-types@npm:~2.1.24, mime-types@npm:~2.1.34":
+"mime-types@npm:2.1.35, mime-types@npm:^2.1.12, mime-types@npm:^2.1.27, mime-types@npm:^2.1.31, mime-types@npm:~2.1.17, mime-types@npm:~2.1.24, mime-types@npm:~2.1.34":
   version: 2.1.35
   resolution: "mime-types@npm:2.1.35"
   dependencies:
@@ -14690,6 +14773,13 @@ __metadata:
     forwarded: "npm:0.2.0"
     ipaddr.js: "npm:1.9.1"
   checksum: 10c0/c3eed999781a35f7fd935f398b6d8920b6fb00bbc14287bc6de78128ccc1a02c89b95b56742bf7cf0362cc333c61d138532049c7dedc7a328ef13343eff81210
+  languageName: node
+  linkType: hard
+
+"proxy-from-env@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "proxy-from-env@npm:1.1.0"
+  checksum: 10c0/fe7dd8b1bdbbbea18d1459107729c3e4a2243ca870d26d34c2c1bcd3e4425b7bcc5112362df2d93cc7fb9746f6142b5e272fd1cc5c86ddf8580175186f6ad42b
   languageName: node
   linkType: hard
 

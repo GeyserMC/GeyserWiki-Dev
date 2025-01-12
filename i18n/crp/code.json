@@ -1,0 +1,848 @@
+{
+  "components.provider.instructions": {
+    "message": "crwdns27849:0crwdne27849:0"
+  },
+  "components.provider.select": {
+    "message": "crwdns27851:0crwdne27851:0"
+  },
+  "providers.templates.default": {
+    "message": "crwdns27853:0`clone-remote-port`crwdnd27853:0`bedrock port`crwdne27853:0"
+  },
+  "providers.templates.ip_and_port": {
+    "message": "crwdns27855:0`clone-remote-port`crwdnd27855:0`bedrock port`crwdnd27855:0`bedrock address`crwdnd27855:0`0.0.0.0`crwdne27855:0"
+  },
+  "providers.templates.forwarding_option": {
+    "message": "crwdns27857:0crwdne27857:0"
+  },
+  "providers.templates.java_ip": {
+    "message": "crwdns27859:0`bedrock address`crwdnd27859:0`0.0.0.0`crwdne27859:0"
+  },
+  "providers.provider.apex_hosting.description": {
+    "message": "crwdns27861:0[crwdnd27861:0](https://apexminecrafthosting.com/geysermc/)crwdne27861:0"
+  },
+  "providers.provider.aternos.description": {
+    "message": "crwdns27863:0[crwdnd27863:0](https://support.aternos.org/hc/en-us/articles/360051047631)crwdne27863:0"
+  },
+  "providers.provider.birdflop.description": {
+    "message": "crwdns27865:0crwdne27865:0"
+  },
+  "providers.provider.cloud_nord.description": {
+    "message": "crwdns27867:0[crwdnd27867:0](https://cloudnord.net/minecraftcrossplay-server-hosting/)crwdne27867:0"
+  },
+  "providers.provider.creeperhost.description": {
+    "message": "crwdns27869:0crwdne27869:0"
+  },
+  "providers.provider.cubes_hosting.description": {
+    "message": "crwdns27871:0crwdne27871:0"
+  },
+  "providers.provider.exaroton.description": {
+    "message": "crwdns27873:0[crwdnd27873:0](https://support.exaroton.com/hc/en-us/articles/360019857918-Geyser)crwdne27873:0"
+  },
+  "providers.provider.ggservers.description": {
+    "message": "crwdns27875:0crwdne27875:0"
+  },
+  "providers.provider.lilypad.description": {
+    "message": "crwdns27877:0[crwdnd27877:0](https://lilypad.gg/bedrock)crwdne27877:0"
+  },
+  "providers.provider.mcprohosting.description": {
+    "message": "crwdns27879:0`19132`crwdne27879:0"
+  },
+  "providers.provider.minefort.description": {
+    "message": "crwdns27881:0`play.minefort.com`crwdnd27881:0`/server [servername]`crwdnd27881:0`[servername].minefort.com`crwdne27881:0"
+  },
+  "providers.provider.minehut.description": {
+    "message": "crwdns27883:0`bedrock.minehut.com`crwdnd27883:0`/join [servername]`crwdnd27883:0`[servername].bedrock.minehut.gg`crwdne27883:0"
+  },
+  "providers.provider.piglinhost.description": {
+    "message": "crwdns27885:0[crwdnd27885:0](https://piglinhost.com/minecraft-java-hosting.html)crwdnd27885:0[crwdnd27885:0](https://billing.piglinhost.com/submitticket.php?step=2&deptid=5)crwdne27885:0"
+  },
+  "providers.provider.omgserv.description": {
+    "message": "crwdns27887:0[crwdnd27887:0](https://i.imgur.com/Gewpsrq.png)crwdnd27887:0[crwdnd27887:0](https://i.imgur.com/jg5mzNj.png)crwdne27887:0"
+  },
+  "providers.provider.pufferfish_host.description": {
+    "message": "crwdns27889:0crwdne27889:0"
+  },
+  "providers.provider.server.pro.description": {
+    "message": "crwdns27891:0[crwdnd27891:0](https://i.imgur.com/loSNmvu.png)crwdnd27891:0`clone-remote-port`crwdne27891:0"
+  },
+  "providers.provider.snakecraft_hosting.description": {
+    "message": "crwdns27893:0crwdne27893:0"
+  },
+  "providers.provider.srkhost.description": {
+    "message": "crwdns27895:0crwdne27895:0"
+  },
+  "providers.provider.virtual_gladiators.description": {
+    "message": "crwdns27897:0crwdne27897:0"
+  },
+  "providers.provider.wisehosting.description": {
+    "message": "crwdns27899:0`Properties`crwdnd27899:0`Install`crwdnd27899:0[crwdnd27899:0](https://help.wisehosting.com/en/articles/13-how-to-install-geysermc-java-bedrock-crossplay-to-your-server)crwdne27899:0"
+  },
+  "providers.provider.zaphosting.description": {
+    "message": "crwdns27901:0crwdne27901:0"
+  },
+  "providers.provider.365hosts.description": {
+    "message": "crwdns27903:0[crwdnd27903:0](https://www.365hosts.com/gaming/crossplayminecraft)crwdne27903:0"
+  },
+  "providers.provider.aquatis.description": {
+    "message": "crwdns27905:0`bedrock port`crwdne27905:0"
+  },
+  "providers.provider.bisecthosting.description": {
+    "message": "crwdns27907:0`bedrock address`crwdnd27907:0`address: 51.79.129.18`crwdnd27907:0`19132`crwdnd27907:0[crwdnd27907:0](https://www.bisecthosting.com/clients/index.php?rp=/knowledgebase/193/How-to-install-Geyser-and-Floodgate-on-a-Minecraft-Java-server.html)crwdne27907:0"
+  },
+  "providers.provider.bloomhost.description": {
+    "message": "crwdns27909:0[crwdnd27909:0](https://docs.bloom.host/plugins/geysermc/)crwdne27909:0"
+  },
+  "providers.provider.craft-hosting.description": {
+    "message": "crwdns27911:0crwdne27911:0"
+  },
+  "providers.provider.dedicatedmc.description": {
+    "message": "crwdns27913:0[crwdnd27913:0](https://docs.dedicatedmc.io/plugins-mods/how-to-install-geysermc/)crwdne27913:0"
+  },
+  "providers.provider.elfidc.description": {
+    "message": "crwdns27915:0crwdne27915:0"
+  },
+  "providers.provider.fadehost.description": {
+    "message": "crwdns27917:0crwdne27917:0"
+  },
+  "providers.provider.fakaheda.description": {
+    "message": "crwdns27919:0`bedrock port`crwdne27919:0"
+  },
+  "providers.provider.falixnodes.description": {
+    "message": "crwdns27921:0crwdne27921:0"
+  },
+  "providers.provider.ferox_hosting.description": {
+    "message": "crwdns27923:0[crwdnd27923:0](https://feroxhosting.nl/kb/)crwdne27923:0"
+  },
+  "providers.provider.fusion_hosting.description": {
+    "message": "crwdns27925:0crwdne27925:0"
+  },
+  "providers.provider.gportal.description": {
+    "message": "crwdns27927:0crwdne27927:0"
+  },
+  "providers.provider.heavynode.description": {
+    "message": "crwdns27929:0`19132`crwdnd27929:0[crwdnd27929:0](https://wiki.geysermc.org/geyser/port-forwarding/#ovh-and-soyoustart)crwdne27929:0"
+  },
+  "providers.provider.hicoria.description": {
+    "message": "crwdns27931:0crwdne27931:0"
+  },
+  "providers.provider.hosterfy.description": {
+    "message": "crwdns27933:0`clone-remote-port`crwdne27933:0"
+  },
+  "providers.provider.hostez.description": {
+    "message": "crwdns27935:0crwdne27935:0"
+  },
+  "providers.provider.hosting-minecraft.description": {
+    "message": "crwdns27937:0[crwdnd27937:0](https://my.hosting-minecraft.pro/submitticket.php)crwdne27937:0"
+  },
+  "providers.provider.humbleservers.description": {
+    "message": "crwdns27939:0crwdne27939:0"
+  },
+  "providers.provider.kekshost.description": {
+    "message": "crwdns27941:0crwdne27941:0"
+  },
+  "providers.provider.kinetic_hosting.description": {
+    "message": "crwdns27943:0`bedrock port`crwdnd27943:0`clone-remote-port`crwdnd27943:0[crwdnd27943:0](https://www.kinetichosting.net/articles/minecraft-java/plugins/geyser)crwdne27943:0"
+  },
+  "providers.provider.mcpehost.ru.description": {
+    "message": "crwdns27945:0`bedrock port`crwdne27945:0"
+  },
+  "providers.provider.meloncube.description": {
+    "message": "crwdns27947:0`bedrock port`crwdne27947:0"
+  },
+  "providers.provider.netbela.description": {
+    "message": "crwdns27949:0crwdne27949:0"
+  },
+  "providers.provider.nfoservers.description": {
+    "message": "crwdns27951:0`bedrock address`crwdne27951:0"
+  },
+  "providers.provider.nitrado.description": {
+    "message": "crwdns27953:0[crwdnd27953:0](https://wiki.nitrado.net/en/How_to_install_GeyserMC_and_Floodgate)crwdne27953:0"
+  },
+  "providers.provider.nodecraft.description": {
+    "message": "crwdns27955:0`0.0.0.0`crwdne27955:0"
+  },
+  "providers.provider.pebblehost.description": {
+    "message": "crwdns27957:0`clone-remote-port`crwdnd27957:0`bedrock port`crwdnd27957:0[crwdnd27957:0](https://youtu.be/v9lC80UBZF4)crwdne27957:0"
+  },
+  "providers.provider.pubcs.description": {
+    "message": "crwdns27959:0crwdne27959:0"
+  },
+  "providers.provider.revivenode.description": {
+    "message": "crwdns27961:0`bedrock port`crwdnd27961:0`clone-remote-port`crwdnd27961:0`network tab`crwdnd27961:0`Unable to Connect`crwdnd27961:0[crwdnd27961:0](https://wiki.geysermc.org/geyser/port-forwarding/#ovh-and-soyoustart)crwdne27961:0"
+  },
+  "providers.provider.shockbyte.description": {
+    "message": "crwdns27963:0[crwdnd27963:0](https://shockbyte.com/billing/knowledgebase/173/Introduction-to-GeyserMCorDragonProxy-How-GeyserMC-Works.html)crwdne27963:0"
+  },
+  "providers.provider.skynode.pro.description": {
+    "message": "crwdns27965:0`bedrock port`crwdne27965:0"
+  },
+  "providers.provider.stipe.description": {
+    "message": "crwdns27967:0crwdne27967:0"
+  },
+  "providers.provider.syntexhosting.description": {
+    "message": "crwdns27969:0crwdne27969:0"
+  },
+  "providers.provider.the_minecraft hosting.description": {
+    "message": "crwdns27971:0`19132`crwdnd27971:0`bedrock port`crwdne27971:0"
+  },
+  "providers.provider.volthosting.description": {
+    "message": "crwdns27973:0[crwdnd27973:0](https://volthosting.co.uk/contact.html)crwdne27973:0"
+  },
+  "providers.provider.vultam.description": {
+    "message": "crwdns27975:0`bedrock port`crwdnd27975:0`19132`crwdne27975:0"
+  },
+  "providers.provider.winternode.description": {
+    "message": "crwdns27977:0crwdne27977:0"
+  },
+  "providers.provider.witherhosting.description": {
+    "message": "crwdns27979:0[crwdnd27979:0](https://support.witherhosting.com/en/article/how-to-install-and-use-geysermc-1xn5l6v/)crwdne27979:0"
+  },
+  "providers.provider.myarena.description": {
+    "message": "crwdns27981:0crwdne27981:0"
+  },
+  "providers.provider.nicraft.description": {
+    "message": "crwdns27983:0[crwdnd27983:0](https://wiki.geysermc.org/geyser/port-forwarding/#ovh-and-soyoustart)crwdne27983:0"
+  },
+  "providers.provider.feather.description": {
+    "message": "crwdns27985:0crwdne27985:0"
+  },
+  "pages.main.title": {
+    "message": "crwdns27987:0crwdne27987:0"
+  },
+  "pages.main.subtitle": {
+    "message": "crwdns27989:0crwdne27989:0"
+  },
+  "components.homepage_features.1": {
+    "message": "crwdns27991:0crwdne27991:0"
+  },
+  "components.homepage_features.features.2": {
+    "message": "crwdns27993:0crwdne27993:0"
+  },
+  "components.homepage_features.features.3": {
+    "message": "crwdns27995:0crwdne27995:0"
+  },
+  "pages.download.title": {
+    "message": "crwdns27997:0crwdne27997:0"
+  },
+  "pages.download.subheading": {
+    "message": "crwdns27999:0crwdne27999:0"
+  },
+  "pages.download.description.geyser": {
+    "message": "crwdns28001:0crwdne28001:0"
+  },
+  "pages.download.description.floodgate": {
+    "message": "crwdns28003:0crwdne28003:0"
+  },
+  "pages.download.description.geyserconnect": {
+    "message": "crwdns28005:0crwdne28005:0"
+  },
+  "pages.download.description.geyseroptionalpack": {
+    "message": "crwdns28007:0crwdne28007:0"
+  },
+  "pages.download.description.thirdpartycosmetics": {
+    "message": "crwdns28009:0crwdne28009:0"
+  },
+  "pages.configeditor.noconfigselected.heading": {
+    "message": "crwdns28011:0crwdne28011:0"
+  },
+  "pages.configeditor.noconfigselected.subheading": {
+    "message": "crwdns28013:0crwdne28013:0"
+  },
+  "pages.configeditor.button.defaultconfig": {
+    "message": "crwdns28015:0crwdne28015:0"
+  },
+  "pages.configeditor.button.upload": {
+    "message": "crwdns28017:0crwdne28017:0"
+  },
+  "pages.configeditor.button.export": {
+    "message": "crwdns28019:0crwdne28019:0"
+  },
+  "pages.configeditor.title": {
+    "message": "crwdns28021:0crwdne28021:0"
+  },
+  "pages.configeditor.subheading": {
+    "message": "crwdns28023:0crwdne28023:0"
+  },
+  "pages.dumpviewer.title": {
+    "message": "crwdns28025:0crwdne28025:0"
+  },
+  "pages.dumpviewer.subheading": {
+    "message": "crwdns28027:0crwdne28027:0"
+  },
+  "pages.dumpviewer.enterdumpid": {
+    "message": "crwdns28029:0crwdne28029:0"
+  },
+  "pages.dumpviewer.button.load": {
+    "message": "crwdns28031:0crwdne28031:0"
+  },
+  "pages.dumpviewer.versions": {
+    "message": "crwdns28033:0crwdne28033:0"
+  },
+  "pages.dumpviewer.versions.geyserver": {
+    "message": "crwdns28035:0crwdne28035:0"
+  },
+  "pages.dumpviewer.versions.javaver": {
+    "message": "crwdns28037:0crwdne28037:0"
+  },
+  "pages.dumpviewer.versions.os": {
+    "message": "crwdns28039:0crwdne28039:0"
+  },
+  "pages.dumpviewer.geyserver": {
+    "message": "crwdns28041:0crwdne28041:0"
+  },
+  "pages.dumpviewer.geyserver.build": {
+    "message": "crwdns28043:0crwdne28043:0"
+  },
+  "pages.dumpviewer.geyserver.commit": {
+    "message": "crwdns28045:0crwdne28045:0"
+  },
+  "pages.dumpviewer.geyserver.branch": {
+    "message": "crwdns28047:0crwdne28047:0"
+  },
+  "pages.dumpviewer.platform": {
+    "message": "crwdns28049:0crwdne28049:0"
+  },
+  "pages.dumpviewer.platform.id": {
+    "message": "crwdns28051:0crwdne28051:0"
+  },
+  "pages.dumpviewer.platform.name": {
+    "message": "crwdns28053:0crwdne28053:0"
+  },
+  "pages.dumpviewer.platform.version": {
+    "message": "crwdns28055:0crwdne28055:0"
+  },
+  "pages.dumpviewer.platform.apiver": {
+    "message": "crwdns28057:0crwdne28057:0"
+  },
+  "pages.dumpviewer.platform.onlinemode": {
+    "message": "crwdns28059:0crwdne28059:0"
+  },
+  "pages.dumpviewer.sysinfo": {
+    "message": "crwdns28061:0crwdne28061:0"
+  },
+  "pages.dumpviewer.cpucount": {
+    "message": "crwdns28063:0crwdne28063:0"
+  },
+  "pages.dumpviewer.cpuname": {
+    "message": "crwdns28065:0crwdne28065:0"
+  },
+  "pages.dumpviewer.ram": {
+    "message": "crwdns28067:0crwdne28067:0"
+  },
+  "pages.dumpviewer.javaname": {
+    "message": "crwdns28069:0crwdne28069:0"
+  },
+  "pages.dumpviewer.javavendor": {
+    "message": "crwdns28071:0crwdne28071:0"
+  },
+  "pages.dumpviewer.dockercheck": {
+    "message": "crwdns28073:0crwdne28073:0"
+  },
+  "pages.dumpviewer.plugins": {
+    "message": "crwdns28075:0crwdne28075:0"
+  },
+  "pages.dumpviewer.plugins.noplugins": {
+    "message": "crwdns28077:0crwdne28077:0"
+  },
+  "pages.dumpviewer.plugins.helptext": {
+    "message": "crwdns28079:0crwdne28079:0"
+  },
+  "pages.dumpviewer.config": {
+    "message": "crwdns28081:0crwdne28081:0"
+  },
+  "pages.dumpviewer.viewsource": {
+    "message": "crwdns28083:0crwdne28083:0"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "crwdns28085:0crwdne28085:0",
+    "description": "crwdns28087:0crwdne28087:0"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "crwdns28089:0crwdne28089:0",
+    "description": "crwdns28091:0crwdne28091:0"
+  },
+  "theme.blog.archive.title": {
+    "message": "crwdns28093:0crwdne28093:0",
+    "description": "crwdns28095:0crwdne28095:0"
+  },
+  "theme.blog.archive.description": {
+    "message": "crwdns28097:0crwdne28097:0",
+    "description": "crwdns28099:0crwdne28099:0"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "crwdns28101:0crwdne28101:0",
+    "description": "crwdns28103:0crwdne28103:0"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "crwdns28105:0crwdne28105:0",
+    "description": "crwdns28107:0crwdne28107:0"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "crwdns28109:0crwdne28109:0",
+    "description": "crwdns28111:0crwdne28111:0"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "crwdns28113:0crwdne28113:0",
+    "description": "crwdns28115:0crwdne28115:0"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "crwdns28117:0crwdne28117:0",
+    "description": "crwdns28119:0crwdne28119:0"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "crwdns28121:0crwdne28121:0",
+    "description": "crwdns28123:0crwdne28123:0"
+  },
+  "theme.blog.post.plurals": {
+    "message": "crwdns28125:0{count}crwdne28125:0",
+    "description": "crwdns28127:0{count}crwdne28127:0"
+  },
+  "theme.blog.tagTitle": {
+    "message": "crwdns28129:0{nPosts}crwdnd28129:0{tagName}crwdne28129:0",
+    "description": "crwdns28131:0crwdne28131:0"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "crwdns28133:0crwdne28133:0",
+    "description": "crwdns28135:0crwdne28135:0"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "crwdns28137:0{mode}crwdne28137:0",
+    "description": "crwdns28139:0crwdne28139:0"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "crwdns28141:0crwdne28141:0",
+    "description": "crwdns28143:0crwdne28143:0"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "crwdns28145:0crwdne28145:0",
+    "description": "crwdns28147:0crwdne28147:0"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "crwdns28149:0{count}crwdne28149:0",
+    "description": "crwdns28151:0crwdne28151:0"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "crwdns28153:0crwdne28153:0",
+    "description": "crwdns28155:0crwdne28155:0"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "crwdns28157:0crwdne28157:0",
+    "description": "crwdns28159:0crwdne28159:0"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "crwdns28161:0crwdne28161:0",
+    "description": "crwdns28163:0crwdne28163:0"
+  },
+  "theme.docs.paginator.next": {
+    "message": "crwdns28165:0crwdne28165:0",
+    "description": "crwdns28167:0crwdne28167:0"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "crwdns28169:0{count}crwdne28169:0",
+    "description": "crwdns28171:0{count}crwdne28171:0"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "crwdns28173:0{nDocsTagged}crwdnd28173:0{tagName}crwdne28173:0",
+    "description": "crwdns28175:0crwdne28175:0"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "crwdns28177:0{versionLabel}crwdne28177:0"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "crwdns28179:0{siteTitle}crwdnd28179:0{versionLabel}crwdne28179:0",
+    "description": "crwdns28181:0crwdne28181:0"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "crwdns28183:0{siteTitle}crwdnd28183:0{versionLabel}crwdne28183:0",
+    "description": "crwdns28185:0crwdne28185:0"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "crwdns28187:0{latestVersionLink}crwdnd28187:0{versionLabel}crwdne28187:0",
+    "description": "crwdns28189:0crwdne28189:0"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "crwdns28191:0crwdne28191:0",
+    "description": "crwdns28193:0crwdne28193:0"
+  },
+  "theme.common.editThisPage": {
+    "message": "crwdns28195:0crwdne28195:0",
+    "description": "crwdns28197:0crwdne28197:0"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "crwdns28199:0{heading}crwdne28199:0",
+    "description": "crwdns28201:0crwdne28201:0"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "crwdns28203:0{date}crwdne28203:0",
+    "description": "crwdns28205:0crwdne28205:0"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "crwdns28207:0{user}crwdne28207:0",
+    "description": "crwdns28209:0crwdne28209:0"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "crwdns28211:0{atDate}crwdnd28211:0{byUser}crwdne28211:0",
+    "description": "crwdns28213:0crwdne28213:0"
+  },
+  "theme.NotFound.title": {
+    "message": "crwdns28215:0crwdne28215:0",
+    "description": "crwdns28217:0crwdne28217:0"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "crwdns28219:0crwdne28219:0",
+    "description": "crwdns28221:0crwdne28221:0"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "crwdns28223:0crwdne28223:0",
+    "description": "crwdns28225:0crwdne28225:0"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "crwdns28227:0crwdne28227:0",
+    "description": "crwdns28229:0crwdne28229:0"
+  },
+  "theme.admonition.caution": {
+    "message": "crwdns28231:0crwdne28231:0",
+    "description": "crwdns28233:0crwdne28233:0"
+  },
+  "theme.admonition.danger": {
+    "message": "crwdns28235:0crwdne28235:0",
+    "description": "crwdns28237:0crwdne28237:0"
+  },
+  "theme.admonition.info": {
+    "message": "crwdns28239:0crwdne28239:0",
+    "description": "crwdns28241:0crwdne28241:0"
+  },
+  "theme.admonition.note": {
+    "message": "crwdns28243:0crwdne28243:0",
+    "description": "crwdns28245:0crwdne28245:0"
+  },
+  "theme.admonition.tip": {
+    "message": "crwdns28247:0crwdne28247:0",
+    "description": "crwdns28249:0crwdne28249:0"
+  },
+  "theme.admonition.warning": {
+    "message": "crwdns28251:0crwdne28251:0",
+    "description": "crwdns28253:0crwdne28253:0"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "crwdns28255:0crwdne28255:0",
+    "description": "crwdns28257:0crwdne28257:0"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "crwdns28259:0crwdne28259:0",
+    "description": "crwdns28261:0crwdne28261:0"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "crwdns28263:0crwdne28263:0",
+    "description": "crwdns28265:0crwdne28265:0"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "crwdns28267:0crwdne28267:0",
+    "description": "crwdns28269:0crwdne28269:0"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "crwdns28271:0crwdne28271:0",
+    "description": "crwdns28273:0crwdne28273:0"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "crwdns28275:0{label}crwdne28275:0",
+    "description": "crwdns28277:0crwdne28277:0"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "crwdns28279:0{label}crwdne28279:0",
+    "description": "crwdns28281:0crwdne28281:0"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "crwdns28283:0crwdne28283:0",
+    "description": "crwdns28285:0crwdne28285:0"
+  },
+  "theme.NotFound.p1": {
+    "message": "crwdns28287:0crwdne28287:0",
+    "description": "crwdns28289:0crwdne28289:0"
+  },
+  "theme.NotFound.p2": {
+    "message": "crwdns28291:0crwdne28291:0",
+    "description": "crwdns28293:0crwdne28293:0"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "crwdns28295:0crwdne28295:0",
+    "description": "crwdns28297:0crwdne28297:0"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "crwdns28299:0crwdne28299:0",
+    "description": "crwdns28301:0crwdne28301:0"
+  },
+  "theme.blog.post.readMore": {
+    "message": "crwdns28303:0crwdne28303:0",
+    "description": "crwdns28305:0crwdne28305:0"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "crwdns28307:0{title}crwdne28307:0",
+    "description": "crwdns28309:0crwdne28309:0"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "crwdns28311:0{readingTime}crwdne28311:0",
+    "description": "crwdns28313:0{readingTime}crwdne28313:0"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "crwdns28315:0crwdne28315:0",
+    "description": "crwdns28317:0crwdne28317:0"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "crwdns28319:0crwdne28319:0",
+    "description": "crwdns28321:0crwdne28321:0"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "crwdns28323:0crwdne28323:0",
+    "description": "crwdns28325:0crwdne28325:0"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "crwdns28327:0crwdne28327:0",
+    "description": "crwdns28329:0crwdne28329:0"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "crwdns28331:0crwdne28331:0",
+    "description": "crwdns28333:0crwdne28333:0"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "crwdns28335:0crwdne28335:0",
+    "description": "crwdns28337:0crwdne28337:0"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "crwdns28339:0crwdne28339:0",
+    "description": "crwdns28341:0crwdne28341:0"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "crwdns28343:0crwdne28343:0",
+    "description": "crwdns28345:0crwdne28345:0"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "crwdns28347:0crwdne28347:0",
+    "description": "crwdns28349:0crwdne28349:0"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "crwdns28351:0{count}crwdne28351:0"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "crwdns28353:0{count}crwdne28353:0",
+    "description": "crwdns28355:0{count}crwdne28355:0"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "crwdns28357:0{query}crwdne28357:0",
+    "description": "crwdns28359:0crwdne28359:0"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "crwdns28361:0crwdne28361:0",
+    "description": "crwdns28363:0crwdne28363:0"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "crwdns28365:0crwdne28365:0",
+    "description": "crwdns28367:0crwdne28367:0"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "crwdns28369:0crwdne28369:0",
+    "description": "crwdns28371:0crwdne28371:0"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "crwdns28373:0crwdne28373:0",
+    "description": "crwdns28375:0crwdne28375:0"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "crwdns28377:0crwdne28377:0",
+    "description": "crwdns28379:0crwdne28379:0"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "crwdns28381:0crwdne28381:0",
+    "description": "crwdns28383:0crwdne28383:0"
+  },
+  "theme.SearchBar.label": {
+    "message": "crwdns28385:0crwdne28385:0",
+    "description": "crwdns28387:0crwdne28387:0"
+  },
+  "theme.SearchModal.searchBox.resetButtonTitle": {
+    "message": "crwdns28389:0crwdne28389:0",
+    "description": "crwdns28391:0crwdne28391:0"
+  },
+  "theme.SearchModal.searchBox.cancelButtonText": {
+    "message": "crwdns28393:0crwdne28393:0",
+    "description": "crwdns28395:0crwdne28395:0"
+  },
+  "theme.SearchModal.startScreen.recentSearchesTitle": {
+    "message": "crwdns28397:0crwdne28397:0",
+    "description": "crwdns28399:0crwdne28399:0"
+  },
+  "theme.SearchModal.startScreen.noRecentSearchesText": {
+    "message": "crwdns28401:0crwdne28401:0",
+    "description": "crwdns28403:0crwdne28403:0"
+  },
+  "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
+    "message": "crwdns28405:0crwdne28405:0",
+    "description": "crwdns28407:0crwdne28407:0"
+  },
+  "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
+    "message": "crwdns28409:0crwdne28409:0",
+    "description": "crwdns28411:0crwdne28411:0"
+  },
+  "theme.SearchModal.startScreen.favoriteSearchesTitle": {
+    "message": "crwdns28413:0crwdne28413:0",
+    "description": "crwdns28415:0crwdne28415:0"
+  },
+  "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
+    "message": "crwdns28417:0crwdne28417:0",
+    "description": "crwdns28419:0crwdne28419:0"
+  },
+  "theme.SearchModal.errorScreen.titleText": {
+    "message": "crwdns28421:0crwdne28421:0",
+    "description": "crwdns28423:0crwdne28423:0"
+  },
+  "theme.SearchModal.errorScreen.helpText": {
+    "message": "crwdns28425:0crwdne28425:0",
+    "description": "crwdns28427:0crwdne28427:0"
+  },
+  "theme.SearchModal.footer.selectText": {
+    "message": "crwdns28429:0crwdne28429:0",
+    "description": "crwdns28431:0crwdne28431:0"
+  },
+  "theme.SearchModal.footer.selectKeyAriaLabel": {
+    "message": "crwdns28433:0crwdne28433:0",
+    "description": "crwdns28435:0crwdne28435:0"
+  },
+  "theme.SearchModal.footer.navigateText": {
+    "message": "crwdns28437:0crwdne28437:0",
+    "description": "crwdns28439:0crwdne28439:0"
+  },
+  "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
+    "message": "crwdns28441:0crwdne28441:0",
+    "description": "crwdns28443:0crwdne28443:0"
+  },
+  "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
+    "message": "crwdns28445:0crwdne28445:0",
+    "description": "crwdns28447:0crwdne28447:0"
+  },
+  "theme.SearchModal.footer.closeText": {
+    "message": "crwdns28449:0crwdne28449:0",
+    "description": "crwdns28451:0crwdne28451:0"
+  },
+  "theme.SearchModal.footer.closeKeyAriaLabel": {
+    "message": "crwdns28453:0crwdne28453:0",
+    "description": "crwdns28455:0crwdne28455:0"
+  },
+  "theme.SearchModal.footer.searchByText": {
+    "message": "crwdns28457:0crwdne28457:0",
+    "description": "crwdns28459:0crwdne28459:0"
+  },
+  "theme.SearchModal.noResultsScreen.noResultsText": {
+    "message": "crwdns28461:0crwdne28461:0",
+    "description": "crwdns28463:0crwdne28463:0"
+  },
+  "theme.SearchModal.noResultsScreen.suggestedQueryText": {
+    "message": "crwdns28465:0crwdne28465:0",
+    "description": "crwdns28467:0crwdne28467:0"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
+    "message": "crwdns28469:0crwdne28469:0",
+    "description": "crwdns28471:0crwdne28471:0"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
+    "message": "crwdns28473:0crwdne28473:0",
+    "description": "crwdns28475:0crwdne28475:0"
+  },
+  "theme.SearchModal.placeholder": {
+    "message": "crwdns28477:0crwdne28477:0",
+    "description": "crwdns28479:0crwdne28479:0"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "crwdns28481:0crwdne28481:0",
+    "description": "crwdns28483:0crwdne28483:0"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "crwdns28485:0crwdne28485:0",
+    "description": "crwdns28487:0crwdne28487:0"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "crwdns28489:0crwdne28489:0",
+    "description": "crwdns28491:0crwdne28491:0"
+  },
+  "theme.unlistedContent.title": {
+    "message": "crwdns28493:0crwdne28493:0",
+    "description": "crwdns28495:0crwdne28495:0"
+  },
+  "theme.unlistedContent.message": {
+    "message": "crwdns28497:0crwdne28497:0",
+    "description": "crwdns28499:0crwdne28499:0"
+  },
+  "providers.provider.not_listed.description": {
+    "message": "crwdns28501:0`clone-remote-port`crwdne28501:0"
+  },
+  "providers.provider.wasabihosting.description": {
+    "message": "crwdns28503:0crwdne28503:0"
+  },
+  "pages.download.description.hurricane": {
+    "message": "crwdns28505:0crwdne28505:0"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "crwdns28507:0{authorName}crwdnd28507:0{nPosts}crwdne28507:0",
+    "description": "crwdns28509:0crwdne28509:0"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "crwdns28511:0crwdne28511:0",
+    "description": "crwdns28513:0crwdne28513:0"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "crwdns28515:0crwdne28515:0",
+    "description": "crwdns28517:0crwdne28517:0"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "crwdns28519:0crwdne28519:0",
+    "description": "crwdns28521:0crwdne28521:0"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "crwdns28523:0crwdne28523:0",
+    "description": "crwdns28525:0crwdne28525:0"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "crwdns28527:0crwdne28527:0",
+    "description": "crwdns28529:0crwdne28529:0"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "crwdns28531:0crwdne28531:0",
+    "description": "crwdns28533:0crwdne28533:0"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "crwdns28535:0crwdne28535:0",
+    "description": "crwdns28537:0crwdne28537:0"
+  },
+  "providers.provider.arth_hosting.description": {
+    "message": "crwdns28539:0crwdne28539:0"
+  },
+  "providers.provider.mcforfree.de.description": {
+    "message": "crwdns28541:0`port`crwdnd28541:0`bedrock`crwdne28541:0"
+  },
+  "providers.provider.papernodes.description": {
+    "message": "crwdns28543:0crwdne28543:0"
+  },
+  "providers.provider.wepwawet.description": {
+    "message": "crwdns28545:0crwdne28545:0"
+  },
+  "mdx.setup.host_provider": {
+    "message": "crwdns28547:0crwdne28547:0"
+  },
+  "mdx.setup.self_host": {
+    "message": "crwdns28549:0crwdne28549:0"
+  },
+  "mdx.setup.paper_spigot": {
+    "message": "crwdns28551:0crwdne28551:0"
+  },
+  "mdx.setup.modded_servers": {
+    "message": "crwdns28553:0crwdne28553:0"
+  },
+  "mdx.setup.proxy_servers": {
+    "message": "crwdns28555:0crwdne28555:0"
+  },
+  "mdx.setup.viaproxy": {
+    "message": "crwdns28557:0crwdne28557:0"
+  },
+  "mdx.setup.standalone": {
+    "message": "crwdns28559:0crwdne28559:0"
+  }
+}

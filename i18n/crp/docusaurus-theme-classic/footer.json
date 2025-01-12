@@ -1,0 +1,74 @@
+{
+  "copyright": {
+    "message": "crwdns28761:0crwdne28761:0",
+    "description": "crwdns28763:0crwdne28763:0"
+  },
+  "link.title.Wiki": {
+    "message": "crwdns28765:0crwdne28765:0",
+    "description": "crwdns28767:0crwdne28767:0"
+  },
+  "link.title.Downloads": {
+    "message": "crwdns28769:0crwdne28769:0",
+    "description": "crwdns28771:0crwdne28771:0"
+  },
+  "link.title.Community": {
+    "message": "crwdns28773:0crwdne28773:0",
+    "description": "crwdns28775:0crwdne28775:0"
+  },
+  "link.title.More": {
+    "message": "crwdns28777:0crwdne28777:0",
+    "description": "crwdns28779:0crwdne28779:0"
+  },
+  "link.item.label.Geyser": {
+    "message": "crwdns28781:0crwdne28781:0",
+    "description": "crwdns28783:0crwdne28783:0"
+  },
+  "link.item.label.Floodgate": {
+    "message": "crwdns28785:0crwdne28785:0",
+    "description": "crwdns28787:0crwdne28787:0"
+  },
+  "link.item.label.REST APIs": {
+    "message": "crwdns28789:0crwdne28789:0",
+    "description": "crwdns28791:0crwdne28791:0"
+  },
+  "link.item.label.Other": {
+    "message": "crwdns28793:0crwdne28793:0",
+    "description": "crwdns28795:0crwdne28795:0"
+  },
+  "link.item.label.Crowdin": {
+    "message": "crwdns28797:0crwdne28797:0",
+    "description": "crwdns28799:0crwdne28799:0"
+  },
+  "link.item.label.Discord": {
+    "message": "crwdns28801:0crwdne28801:0",
+    "description": "crwdns28803:0crwdne28803:0"
+  },
+  "link.item.label.GitHub": {
+    "message": "crwdns28805:0crwdne28805:0",
+    "description": "crwdns28807:0crwdne28807:0"
+  },
+  "link.item.label.Reddit": {
+    "message": "crwdns28809:0crwdne28809:0",
+    "description": "crwdns28811:0crwdne28811:0"
+  },
+  "link.item.label.Twitter": {
+    "message": "crwdns28813:0crwdne28813:0",
+    "description": "crwdns28815:0crwdne28815:0"
+  },
+  "link.item.label.Blog": {
+    "message": "crwdns28817:0crwdne28817:0",
+    "description": "crwdns28819:0crwdne28819:0"
+  },
+  "link.item.label.Donate": {
+    "message": "crwdns28821:0crwdne28821:0",
+    "description": "crwdns28823:0crwdne28823:0"
+  },
+  "link.item.label.Global Linking": {
+    "message": "crwdns28825:0crwdne28825:0",
+    "description": "crwdns28827:0crwdne28827:0"
+  },
+  "logo.alt": {
+    "message": "crwdns28829:0crwdne28829:0",
+    "description": "crwdns28831:0crwdne28831:0"
+  }
+}

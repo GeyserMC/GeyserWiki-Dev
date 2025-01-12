@@ -1,7 +1,10 @@
 ---
 title: Geyser Self-Hosted Proxy Servers Setup
-description: Learn how to set up Geyser on your self-hosted Bungee, Waterfall, or Velocity server.
+description: >-
+  Learn how to set up Geyser on your self-hosted Bungee, Waterfall, or Velocity
+  server.
 hide_title: true
+crowdin_page_id: d1262b08-b171-4694-a8c3-866e66246cd6
 ---
 
 
@@ -9,7 +12,7 @@ import { Versions } from '@site/src/components/Versions'
 
 :::info
 - Install Geyser **only** on the proxy server! You can install Floodgate on all servers for better skin support & network-wide Floodgate API availability for other plugins.   
-- All servers on the network must accept <Versions platform="java"/> Java clients, as Geyser imitates one.  
+- All servers on the network must accept <Versions.java/> Java clients, as Geyser imitates one.  
 :::
 
 1. Download the plugin for your proxy software from [the download page](/download).
@@ -53,5 +56,5 @@ import { Versions } from '@site/src/components/Versions'
 5. Verify whether connections from other networks are possible by running `geyser connectiontest <ip> <port>` in the console.
 
 :::info
-To allow Bedrock Edition players to join your server without needing to log in to a paid Java Edition account, you can use <a href="/wiki/floodgate/setup/">Floodgate</a>.
+To allow Bedrock Edition players to join your server without needing to log in to a paid Java Edition account, you can use [Floodgate](/wiki/floodgate/setup/).
 :::

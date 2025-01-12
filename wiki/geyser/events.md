@@ -1,6 +1,10 @@
 ---
 title: Geyser Events
-description: Geyser has a powerful event system that allows you to listen to events that are sent by Geyser. Events are at the heart of Geyser Extensions, and can be used by plugins and mods as well.
+description: >-
+  Geyser has a powerful event system that allows you to listen to events that
+  are sent by Geyser. Events are at the heart of Geyser Extensions, and can be
+  used by plugins and mods as well.
+crowdin_page_id: 77de57f3-e693-49a4-af6a-215f6ee6d42a
 ---
 
 # Geyser Events

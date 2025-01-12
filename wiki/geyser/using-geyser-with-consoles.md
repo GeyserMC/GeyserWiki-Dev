@@ -1,6 +1,9 @@
 ---
 title: Using Geyser with Consoles
-description: Information on how to use Geyser with consoles, including how to join servers on console versions of Bedrock Edition.
+description: >-
+  Information on how to use Geyser with consoles, including how to join servers
+  on console versions of Bedrock Edition.
+crowdin_page_id: 2b692367-58d4-469b-a795-0621539456eb
 ---
 
 # Using Geyser with Consoles

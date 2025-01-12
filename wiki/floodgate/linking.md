@@ -1,6 +1,9 @@
 ---
 title: Linking
-description: Learn how to link your Java and Bedrock Minecraft accounts for crossplay. Understand builtin Global Linking or how to set up optional local linking.
+description: >-
+  Learn how to link your Java and Bedrock Minecraft accounts for crossplay.
+  Understand builtin Global Linking or how to set up optional local linking.
+crowdin_page_id: 34a0347b-bc2a-4239-a663-1a831e503ad6
 ---
 
 ## What is Global Linking? {#what-is-global-linking}

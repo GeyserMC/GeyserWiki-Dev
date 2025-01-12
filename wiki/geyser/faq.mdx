@@ -1,10 +1,12 @@
 ---
 title: Frequently Asked Questions
-description: Frequently asked questions about Geyser, including how it works, what plugins are incompatible, and more.
+description: >-
+  Frequently asked questions about Geyser, including how it works, what plugins
+  are incompatible, and more.
+crowdin_page_id: bb14391a-47cb-4d04-bbc0-05c4466272a6
 ---
 
 import { Questions, Q, A } from "@site/src/components/Questions";
-import { Versions } from '@site/src/components/Versions'
 
 ### General Questions \{#general-questions}
 
@@ -34,18 +36,18 @@ Here you can find answers to frequently asked questions about Geyser - if you ha
         <A>
             Geyser should generally work fine with plugins, as we emulate a Java client. There are exceptions, though:
 
-            * [TCPShield](https://tcpshield.com/) requires `only-allow-proxy-connections` disabled without a paid plan. However, their "Premium" plan will allow the support of Geyser - please see [here](https://docs.tcpshield.com/miscellaneous/geyser) for setup instructions.
+            - [TCPShield](https://tcpshield.com/) requires `only-allow-proxy-connections` disabled without a paid plan. However, their "Premium" plan will allow the support of Geyser - please see [here](https://docs.tcpshield.com/miscellaneous/geyser) for setup instructions.
 
             Floodgate can cause issues with plugins as it modifies the login process. *Please note that any offline mode authenticator plugins are only here for documentation; Geyser does not support offline mode usage.*
 
-            * [DynamicBungeeAuth](https://www.spigotmc.org/resources/27480/) Currently working on latest version 10.28B+ (10.27B and older versions produces invalid credentials for Bedrock players)
-            * [FastLogin](https://www.spigotmc.org/resources/14153/) does not let floodgate add player prefix.
-            * [ExploitFixer](https://www.spigotmc.org/resources/62842/) thinks that Floodgate users are UUID spoofing - disable the `uuidspoof` setting in ExploitFixer's config.
-            * [JPremium](https://www.spigotmc.org/resources/27766/) alters the UUID of a player, causing Floodgate not to be able to get the Bedrock data from its map.
-            * [LibHatesMods](https://www.spigotmc.org/resources/78202/) causes authentication to fail with `com.github.steveice10.mc.auth.exception.request.InvalidCredentialsException`
-            * [ProtocolSupport](https://www.spigotmc.org/resources/7201/) ~~is currently incompatible with Floodgate.~~ Works with Floodgate, but we recommend using [ViaBackwards](https://hangar.papermc.io/ViaVersion/ViaBackwards) instead.
-            * [ProtocolSupportBungee](https://www.spigotmc.org/resources/8733/) changes how the login process works and therefore breaks the Floodgate injection code.
-            * [SayNoToMcLeaks](https://www.spigotmc.org/resources/40906/) prevents Floodgate from finishing its login system.
+            - [DynamicBungeeAuth](https://www.spigotmc.org/resources/27480/) Currently working on latest version 10.28B+ (10.27B and older versions produces invalid credentials for Bedrock players)
+            - [FastLogin](https://www.spigotmc.org/resources/14153/) does not let floodgate add player prefix.
+            - [ExploitFixer](https://www.spigotmc.org/resources/62842/) thinks that Floodgate users are UUID spoofing - disable the `uuidspoof` setting in ExploitFixer's config.
+            - [JPremium](https://www.spigotmc.org/resources/27766/) alters the UUID of a player, causing Floodgate not to be able to get the Bedrock data from its map.
+            - [LibHatesMods](https://www.spigotmc.org/resources/78202/) causes authentication to fail with `com.github.steveice10.mc.auth.exception.request.InvalidCredentialsException`
+            - [ProtocolSupport](https://www.spigotmc.org/resources/7201/) ~~is currently incompatible with Floodgate.~~ Works with Floodgate, but we recommend using [ViaBackwards](https://hangar.papermc.io/ViaVersion/ViaBackwards) instead.
+            - [ProtocolSupportBungee](https://www.spigotmc.org/resources/8733/) changes how the login process works and therefore breaks the Floodgate injection code.
+            - [SayNoToMcLeaks](https://www.spigotmc.org/resources/40906/) prevents Floodgate from finishing its login system.
 
             If you come across any more, please let us know via [Discord](https://discord.gg/geysermc).
         </A>
@@ -60,18 +62,18 @@ Here you can find answers to frequently asked questions about Geyser - if you ha
         Which plugin version of Geyser do I need?
         <A>
             This is a non-complete list of what platform each plugin version of Geyser is for, and the standalone version can be used for any as it isn't a plugin.
-            * Geyser-Spigot works with:
-            * [Spigot](https://www.spigotmc.org/)
-            * [Paper](https://papermc.io/downloads/paper) (recommended)
-            * Any other forks of the above
-            * Geyser-Bungee works with:
-            * [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/)
-            * [Waterfall](https://papermc.io/downloads/Waterfall)
-            * Any other forks of the above
-            * Geyser-Velocity works with [Velocity](https://www.velocitypowered.com/)
-            * Geyser-Fabric works with [Fabric](https://www.fabricmc.net/), and requires FabricAPI to be installed on the server as well.
-            * Geyser-NeoForge works with [NeoForge](https://neoforged.net/),
-            * Geyser-ViaProxy works with [ViaProxy](https://github.com/ViaVersion/ViaProxy).
+            - Geyser-Spigot works with:
+            - [Spigot](https://www.spigotmc.org/)
+            - [Paper](https://papermc.io/downloads/paper) (recommended)
+            - Any other forks of the above
+            - Geyser-Bungee works with:
+            - [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/)
+            - [Waterfall](https://papermc.io/downloads/Waterfall)
+            - Any other forks of the above
+            - Geyser-Velocity works with [Velocity](https://www.velocitypowered.com/)
+            - Geyser-Fabric works with [Fabric](https://www.fabricmc.net/), and requires FabricAPI to be installed on the server as well.
+            - Geyser-NeoForge works with [NeoForge](https://neoforged.net/),
+            - Geyser-ViaProxy works with [ViaProxy](https://github.com/ViaVersion/ViaProxy).
         </A>
     </Q>
     <Q>

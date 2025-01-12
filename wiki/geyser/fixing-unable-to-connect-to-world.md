@@ -1,6 +1,7 @@
 ---
 title: Fixing 'Unable to Connect to World'
 description: Common issues and solutions for the 'Unable to Connect to World' error.
+crowdin_page_id: e55f0045-e209-470e-8b24-222418e46756
 ---
 
 ## Fixing 'Unable to Connect to World' errors {#fixing-unable-to-connect-to-world-errors}

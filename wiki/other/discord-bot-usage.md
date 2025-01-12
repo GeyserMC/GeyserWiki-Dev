@@ -1,6 +1,7 @@
 ---
 title: Discord Bot Usage
 description: Information about how to use the Geyser Discord bot.
+crowdin_page_id: 1f34e77a-dfd9-4c34-9433-7b7cc610fdac
 ---
 
 Our discord bot provides some very useful toos to debug/issue track your server. We will go in-depth on how to use the bot commands and its tools.

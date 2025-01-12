@@ -1,6 +1,9 @@
 ---
 title: Hydraulic
-description: 'Hydraulic is a companion to Geyser which allows for Bedrock players to join modded Minecraft: Java Edition servers.'
+description: >-
+  Hydraulic is a companion to Geyser which allows for Bedrock players to join
+  modded Minecraft: Java Edition servers.
+crowdin_page_id: 9a0f2967-c806-4ac0-8a1d-3481a6e65f90
 ---
 
 Hydraulic is a companion to Geyser which allows for Bedrock players to join modded Minecraft: Java Edition servers. 

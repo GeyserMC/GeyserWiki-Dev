@@ -2,6 +2,7 @@
 title: Setup
 page_sidebar: false
 description: Guides to setup Geyser on all supported platforms
+crowdin_page_id: c0450f30-546a-4420-a3a6-5ff077a6a924
 ---
 
 import Tabs from "@theme/Tabs";
@@ -24,40 +25,43 @@ import PaperSpigotIcon from '@site/static/img/icons/paper.png';
 import ViaProxyIcon from '@site/static/img/icons/viaproxy.png';
 import StandaloneIcon from '@site/static/img/icons/geyser.png';
 
+import { MDXTranslatable } from "@site/src/components/MDXTranslatable";
 import { ProviderSelector } from "@site/src/components/Provider";
 
+````mdx-code-block
 <Tabs queryString="host" className="tabs-host-type">
-    <TabItem value="provider" label="Host Provider" default>
+    <TabItem value="provider" label={<MDXTranslatable.setup.host_provider/>} default>
         <ProviderSelector/>
         <Tabs queryString="platform">
-            <TabItem value="paper-spigot" label={<PlatformIcon img={PaperSpigotIcon} text="Paper / Spigot"/>} default>
+            <TabItem value="paper-spigot" label={<PlatformIcon img={PaperSpigotIcon} text={<MDXTranslatable.setup.paper_spigot/>}/>} default>
                 <PaperSpigot/>
             </TabItem>
-            <TabItem value="modded-servers" label={<PlatformIcon img={ModIcon} text="Modded Servers"/>}>
+            <TabItem value="modded-servers" label={<PlatformIcon img={ModIcon} text={<MDXTranslatable.setup.modded_servers/>}/>}>
                 <ModdedServers/>
             </TabItem>
-            <TabItem value="proxy-servers" label={<PlatformIcon img={ProxyServersIcon} text="Proxy Servers"/>}>
+            <TabItem value="proxy-servers" label={<PlatformIcon img={ProxyServersIcon} text={<MDXTranslatable.setup.proxy_servers/>}/>}>
                 <ProxyServers/>
             </TabItem>
         </Tabs>
     </TabItem>
-    <TabItem value="self" label="Self Host">
+    <TabItem value="self" label={<MDXTranslatable.setup.self_host/>}>
         <Tabs queryString="platform">
-            <TabItem value="paper-spigot" label={<PlatformIcon img={PaperSpigotIcon} text="Paper / Spigot"/>} default>
+            <TabItem value="paper-spigot" label={<PlatformIcon img={PaperSpigotIcon} text={<MDXTranslatable.setup.paper_spigot/>}/>} default>
                 <PaperSpigotSelf/>
             </TabItem>
-            <TabItem value="modded-servers" label={<PlatformIcon img={ModIcon} text="Modded Servers"/>}>
+            <TabItem value="modded-servers" label={<PlatformIcon img={ModIcon} text={<MDXTranslatable.setup.modded_servers/>}/>}>
                 <ModdedServersSelf/>
             </TabItem>
-            <TabItem value="proxy-servers" label={<PlatformIcon img={ProxyServersIcon} text="Proxy Servers"/>}>
+            <TabItem value="proxy-servers" label={<PlatformIcon img={ProxyServersIcon} text={<MDXTranslatable.setup.proxy_servers/>}/>}>
                 <ProxyServersSelf/>
             </TabItem>
-            <TabItem value="viaproxy" label={<PlatformIcon img={ViaProxyIcon} text="ViaProxy"/>}>
+            <TabItem value="viaproxy" label={<PlatformIcon img={ViaProxyIcon} text={<MDXTranslatable.setup.viaproxy/>}/>}>
                 <ViaProxy/>
             </TabItem>
-            <TabItem value="standalone" label={<PlatformIcon img={StandaloneIcon} text="Standalone"/>}>
+            <TabItem value="standalone" label={<PlatformIcon img={StandaloneIcon} text={<MDXTranslatable.setup.standalone/>}/>}>
                 <Standalone/>
             </TabItem>
         </Tabs>
     </TabItem>
 </Tabs>
+````

@@ -1,6 +1,9 @@
 ---
 title: GeyserConnect
-description: GeyserConnect is a extension for Geyser that allows you to join multiple servers using a single Geyser proxy.
+description: >-
+  GeyserConnect is a extension for Geyser that allows you to join multiple
+  servers using a single Geyser proxy.
+crowdin_page_id: 2cb4e25c-82d5-48a2-b0b5-92239e82e845
 ---
 
 GeyserConnect is a extension for Geyser that allows you to join multiple servers using a single GeyserMC proxy.

@@ -1,0 +1,50 @@
+{
+  "title": {
+    "message": "GeyserMC",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "GeyserMC logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Wiki": {
+    "message": "Wiki",
+    "description": "Navbar item with label Wiki"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Utilities": {
+    "message": "Utilities",
+    "description": "Navbar item with label Utilities"
+  },
+  "item.label.Download": {
+    "message": "Download",
+    "description": "Navbar item with label Download"
+  },
+  "item.label.Geyser": {
+    "message": "Geyser",
+    "description": "Navbar item with label Geyser"
+  },
+  "item.label.Floodgate": {
+    "message": "Floodgate",
+    "description": "Navbar item with label Floodgate"
+  },
+  "item.label.REST APIs": {
+    "message": "REST APIs",
+    "description": "Navbar item with label REST APIs"
+  },
+  "item.label.Other": {
+    "message": "Other",
+    "description": "Navbar item with label Other"
+  },
+  "item.label.Config Editor": {
+    "message": "Config Editor",
+    "description": "Navbar item with label Config Editor"
+  },
+  "item.label.Dump Viewer": {
+    "message": "Dump Viewer",
+    "description": "Navbar item with label Dump Viewer"
+  }
+}

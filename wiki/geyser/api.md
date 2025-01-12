@@ -1,6 +1,9 @@
 ---
 title: Geyser API
-description: The Geyser API allows you to interact with Geyser in your own plugins, mods, or extensions.
+description: >-
+  The Geyser API allows you to interact with Geyser in your own plugins, mods,
+  or extensions.
+crowdin_page_id: c269f34d-2b0c-4da2-8997-162dd75f4c3f
 ---
 
 Geyser has an API to extend what is possible with Geyser, and to allow you to interact with Geyser in your own plugins, mods, or extensions.
@@ -20,9 +23,10 @@ The Geyser API offers events to subscribe to, or information on whether a player
 (soon, blocks and entities too).
 It can be used easily in Geyser Extensions, see [here](/wiki/geyser/extensions) for details on those.
 
-**Quick overview:**   
+**Quick overview:**
+
 :::info
-    Javadocs can be found <a href="https://repo.opencollab.dev/javadoc/maven-snapshots/org/geysermc/geyser/api/latest">here</a>.
+    Javadocs can be found [here](https://repo.opencollab.dev/javadoc/maven-snapshots/org/geysermc/geyser/api/latest).
 :::
 
 #### [GeyserApi](https://github.com/GeyserMC/Geyser/blob/master/api/src/main/java/org/geysermc/geyser/api/GeyserApi.java): {#geyserapi}

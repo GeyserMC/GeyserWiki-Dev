@@ -1,6 +1,7 @@
 ---
 title: Getting Started with the API
-description: 'A primer on how to use the Geyser and Floodgate APIs.'
+description: A primer on how to use the Geyser and Floodgate APIs.
+crowdin_page_id: 688d71d9-4619-4d95-a498-fdcf443bc267
 ---
 
 To start, add the Open Collaboration repository to your project:

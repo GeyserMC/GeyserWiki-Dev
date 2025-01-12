@@ -1,6 +1,7 @@
 ---
 title: Current Limitations
 description: Current known limitations of Geyser.
+crowdin_page_id: f58bc543-fe55-45d5-a896-d2651c1f2827
 ---
 
 # Current Limitations

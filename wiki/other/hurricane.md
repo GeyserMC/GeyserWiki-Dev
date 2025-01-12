@@ -1,6 +1,9 @@
 ---
 title: Hurricane
-description: Hurricane is a Paper / Spigot plugin and Fabric / NeoForge mod that fixes some bugs that otherwise cannot be fixed without server-side modification.
+description: >-
+  Hurricane is a Paper / Spigot plugin and Fabric / NeoForge mod that fixes some
+  bugs that otherwise cannot be fixed without server-side modification.
+crowdin_page_id: c397583f-9720-4a6f-9ce5-e151600d8196
 ---
 
 # Hurricane

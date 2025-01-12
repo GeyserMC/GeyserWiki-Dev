@@ -1,6 +1,9 @@
 ---
 title: Issues
-description: Troubleshoot common Floodgate issues. Get solutions for connection problems, configuration errors, and known limitations.
+description: >-
+  Troubleshoot common Floodgate issues. Get solutions for connection problems,
+  configuration errors, and known limitations.
+crowdin_page_id: 6fd6afc9-31c3-411a-a94b-d0defa0a7f17
 ---
 
 # Known Issues & Caveats
