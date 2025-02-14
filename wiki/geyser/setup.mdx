@@ -4,60 +4,76 @@ page_sidebar: false
 description: Guides to setup Geyser on all supported platforms
 ---
 
-import Tabs from "@theme/Tabs";
-import TabItem from "@theme/TabItem";
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+import Admonition from '@theme/Admonition';
+import Translate from "@docusaurus/Translate";
 
-import ModdedServers from './setup/provider/modded-servers.mdx';
-import ProxyServers from './setup/provider/proxy-servers.mdx';
-import PaperSpigot from './setup/provider/paper-spigot.mdx';
+import ModdedServers from '@site/wiki/geyser/setup/provider/_modded-servers.mdx'
+import ProxyServers from '@site/wiki/geyser/setup/provider/_proxy-servers.mdx'
+import PaperSpigot from '@site/wiki/geyser/setup/provider/_paper-spigot.mdx'
 
-import ModdedServersSelf from './setup/self/modded-servers.mdx';
-import ProxyServersSelf from './setup/self/proxy-servers.mdx';
-import PaperSpigotSelf from './setup/self/paper-spigot.mdx';
-import ViaProxy from './setup/self/viaproxy.mdx';
-import Standalone from './setup/self/standalone.mdx';
+import ModdedServersSelf from '@site/wiki/geyser/setup/self/modded-servers.mdx'
+import ProxyServersSelf from '@site/wiki/geyser/setup/self/proxy-servers.mdx'
+import PaperSpigotSelf from '@site/wiki/geyser/setup/self/paper-spigot.mdx'
+import ViaProxy from '@site/wiki/geyser/setup/self/viaproxy.mdx'
+import Standalone from '@site/wiki/geyser/setup/self/standalone.mdx'
 
 import PlatformIcon from '@site/src/components/PlatformIcon'
-import ModIcon from '@site/static/img/icons/fabric.png';
-import ProxyServersIcon from '@site/static/img/icons/velocity.png';
-import PaperSpigotIcon from '@site/static/img/icons/paper.png';
-import ViaProxyIcon from '@site/static/img/icons/viaproxy.png';
-import StandaloneIcon from '@site/static/img/icons/geyser.png';
+import ModIcon from '@site/static/img/icons/fabric.png'
+import ProxyServersIcon from '@site/static/img/icons/velocity.png'
+import PaperSpigotIcon from '@site/static/img/icons/paper.png'
+import ViaProxyIcon from '@site/static/img/icons/viaproxy.png'
+import StandaloneIcon from '@site/static/img/icons/geyser.png'
 
-import { ProviderSelector } from "@site/src/components/Provider";
+import { ProviderSelector } from '@site/src/components/Provider'
+import { useState } from 'react'
 
-<Tabs queryString="host" className="tabs-host-type">
-    <TabItem value="provider" label="Host Provider" default>
-        <ProviderSelector/>
-        <Tabs queryString="platform">
-            <TabItem value="paper-spigot" label={<PlatformIcon img={PaperSpigotIcon} text="Paper / Spigot"/>} default>
-                <PaperSpigot/>
+export const SetupGuide = () => {
+    const [provider, setProvider] = useState(null)
+    return (
+        <Tabs queryString='host' className='tabs-host-type'>
+            <TabItem value='provider' label='Host Provider' default>
+                <ProviderSelector setProvider={setProvider} />
+                {provider ? (
+                    <>
+                        {provider.connect_instructions ? (
+                            <Tabs queryString='platform'>
+                                <TabItem value='paper-spigot' label={<PlatformIcon img={PaperSpigotIcon} text='Paper / Spigot' />} default>
+                                    <PaperSpigot provider={provider} />
+                                </TabItem>
+                                <TabItem value='modded-servers' label={<PlatformIcon img={ModIcon} text='Modded Servers' />}>
+                                    <ModdedServers provider={provider}/>
+                                </TabItem>
+                                <TabItem value='proxy-servers' label={<PlatformIcon img={ProxyServersIcon} text='Proxy Servers' />}>
+                                    <ProxyServers provider={provider}/>
+                                </TabItem>
+                            </Tabs>
+                        ) : (<Admonition type="warning" title={<Translate id='components.provider.no_support'>Not supported</Translate>}>{provider.warn}</Admonition>)}
+                    </>
+                ) : null}
             </TabItem>
-            <TabItem value="modded-servers" label={<PlatformIcon img={ModIcon} text="Modded Servers"/>}>
-                <ModdedServers/>
-            </TabItem>
-            <TabItem value="proxy-servers" label={<PlatformIcon img={ProxyServersIcon} text="Proxy Servers"/>}>
-                <ProxyServers/>
+            <TabItem value='self' label='Self Host'>
+                <Tabs queryString='platform'>
+                    <TabItem value='paper-spigot' label={<PlatformIcon img={PaperSpigotIcon} text='Paper / Spigot' />} default>
+                        <PaperSpigotSelf />
+                    </TabItem>
+                    <TabItem value='modded-servers' label={<PlatformIcon img={ModIcon} text='Modded Servers' />}>
+                        <ModdedServersSelf />
+                    </TabItem>
+                    <TabItem value='proxy-servers' label={<PlatformIcon img={ProxyServersIcon} text='Proxy Servers' />}>
+                        <ProxyServersSelf />
+                    </TabItem>
+                    <TabItem value='viaproxy' label={<PlatformIcon img={ViaProxyIcon} text='ViaProxy' />}>
+                        <ViaProxy />
+                    </TabItem>
+                    <TabItem value='standalone' label={<PlatformIcon img={StandaloneIcon} text='Standalone' />}>
+                        <Standalone />
+                    </TabItem>
+                </Tabs>
             </TabItem>
         </Tabs>
-    </TabItem>
-    <TabItem value="self" label="Self Host">
-        <Tabs queryString="platform">
-            <TabItem value="paper-spigot" label={<PlatformIcon img={PaperSpigotIcon} text="Paper / Spigot"/>} default>
-                <PaperSpigotSelf/>
-            </TabItem>
-            <TabItem value="modded-servers" label={<PlatformIcon img={ModIcon} text="Modded Servers"/>}>
-                <ModdedServersSelf/>
-            </TabItem>
-            <TabItem value="proxy-servers" label={<PlatformIcon img={ProxyServersIcon} text="Proxy Servers"/>}>
-                <ProxyServersSelf/>
-            </TabItem>
-            <TabItem value="viaproxy" label={<PlatformIcon img={ViaProxyIcon} text="ViaProxy"/>}>
-                <ViaProxy/>
-            </TabItem>
-            <TabItem value="standalone" label={<PlatformIcon img={StandaloneIcon} text="Standalone"/>}>
-                <Standalone/>
-            </TabItem>
-        </Tabs>
-    </TabItem>
-</Tabs>
+    )
+}
+
+<SetupGuide />

@@ -1,0 +1,70 @@
+import Admonition from '@theme/Admonition';
+
+import { Versions } from '@site/src/components/Versions'
+
+:::caution
+Geyser-Fabric and Geyser-NeoForge run **only** on a <Versions platform="java"/> server.
+See [this page](/wiki/geyser/supported-versions#fabric-neoforge-servers) for more details.
+:::
+
+:::info
+Geyser only works with **server-side** mods. Mods that require a client-side install will not work!
+:::
+
+{props.provider.warn ? <Admonition type="warning" title='Warn'>{props.provider.warn}</Admonition> : null}
+
+<h3>Installing Geyser:</h3>
+{props.provider.custom_install_location ? props.provider.custom_install_location : (
+    <ol>
+        <li>Download the mod from [the download page](/download).</li>
+        <li>Place the Geyser mod jar in the `mods` folder. **For Fabric, you will also need the [FabricAPI](https://modrinth.com/mod/fabric-api) mod.**</li>
+        <li>Restart the server.</li>
+    </ol>
+)}
+<br />
+
+{props.provider.config ? (
+    <>
+        <h3>Geyser config changes:</h3>
+        Open your Geyser config. It is located in `/config/Geyser-Fabric/config.yml` (or
+        `/config/Geyser-NeoForge/config.yml`), and change the following:
+        <ul>
+            {props.provider.config.address ? <li>Change the `address` to `{props.provider.config.address}`</li> : null}
+            {props.provider.config.port ? <li>Change the `port` to `{props.provider.config.port}`</li> : null}
+            {props.provider.config.clone_remote_port ? <li>Change `clone-remote-port` to `true`</li> : null}
+            {props.provider.config.port_instruction ? <li>{props.provider.config.port_instruction}</li> : null}
+            {props.provider.config.address_instruction ? <li>{props.provider.config.address_instruction}</li> : null}
+            {props.provider.config.other_instructions ? <li>{props.provider.config.other_instructions}</li> : null}
+        </ul>
+    </>
+) : null}
+
+{props.provider.additional_step ? (
+    <>
+        <h3>Additional Steps:</h3>
+        {props.provider.additional_step}
+        <br />
+    </>
+) : null}
+
+
+{props.provider.connect_instructions ? (
+    <>
+        <h3>Connecting on Bedrock:</h3>
+        {props.provider.connect_instructions}
+    </>
+) : null}
+
+
+{props.provider.info ? <Admonition type="info" title='Info'>{props.provider.info}</Admonition> : null}
+
+
+{props.provider.hosting_article || props.provider.hosting_support ? (
+    <>
+        <h4>More Information:</h4>
+        <ul>
+            {props.provider.hosting_article ? (<li><a href={props.provider.hosting_article} target='_blank'>Hosting provider article</a></li>) : null}
+            {props.provider.hosting_support ? (<li><a href={props.provider.hosting_support} target='_blank'>Hosting provider support</a></li>) : null}
+        </ul>
+    </>
+) : null}

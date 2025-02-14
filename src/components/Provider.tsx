@@ -1,8 +1,7 @@
 import type { HostingProvider, ProviderType } from "@site/src/types/providers";
 import ReactMarkdown from "react-markdown";
-import Admonition from '@theme/Admonition';
 import React, { useState } from 'react';
-import Translate, { translate } from "@docusaurus/Translate";
+import { translate } from "@docusaurus/Translate";
 import { providersData } from "../data/providers";
 
 export const noP = (props: { children: any; }) => {
@@ -29,7 +28,7 @@ export const Provider = ({ type }) => {
     )
 }
 
-export const ProviderSelector = () => {
+export const ProviderSelector = ({setProvider}) => {
     const providers: HostingProvider[] = [
         ...Object.values(providersData.built_in),
         ...Object.values(providersData.support), 
@@ -38,9 +37,17 @@ export const ProviderSelector = () => {
 
     providers.unshift({
         name: 'Not listed',
-        description: translate({
-            id: 'providers.provider.not_listed.description',
-            message: "If your hosting provider is not listed, try enabling the `clone-remote-port` option in the config. Then, restart the server, and try connecting with the same IP and port as on Java Edition. <br> If this does not work, ask your server hosting provider for a UDP port, and use that. For VPS/KVM servers please follow the self-hosting steps."
+        url: null,
+        config: {
+            clone_remote_port: true
+        },
+        connect_instructions: translate({
+            id: 'providers.connect.templates.java_ip_port',
+            message: 'Connect with the Java server IP and Java server port.'
+        }),
+        info: translate({
+            id: 'providers.provider.not_listed.info',
+            message: "If these instructions do not work, contact your server hosting provider and ask for a UDP port. Then, set clone-remote-port to false, and set 'bedrock port' to the port you got. For VPS/KVM servers, please follow the self-hosting steps."
         })
     } as HostingProvider);
     
@@ -51,6 +58,7 @@ export const ProviderSelector = () => {
         const selectedName = event.target.value;
         const provider = providers.find(p => p.name === selectedName);
         setSelectedProvider(provider);
+        setProvider(provider);
     }
 
     return (
@@ -63,15 +71,6 @@ export const ProviderSelector = () => {
                     </option>
                 ))}
             </select>
-            <Admonition type="tip" title={<Translate id='components.provider.instructions'>Provider Instructions</Translate>}>
-                {selectedProvider ? (
-                    <ReactMarkdown>{selectedProvider.description}</ReactMarkdown>
-                ) : (
-                    <p>
-                        <Translate id='components.provider.select'>Select a provider to see specific installation instructions</Translate>
-                    </p>
-                )}
-            </Admonition>
         </div>
     );
 }
