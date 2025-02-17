@@ -22,7 +22,7 @@ The following things cannot be fixed without changes to Bedrock or the Java prot
 - Anything that relies on tab complete or typing in the chat UI (related to the above) - Bedrock sends no packet that indicates they are in this menu
 - Unable to see banner layers past 6
 - Movement issues around bamboo due to offset differences between Java and Bedrock. Use [Hurricane](/wiki/other/hurricane) to work around it.
-- Custom anvil recipes or custom smithing table ingredients/patterns ([GeyserMC/Geyser#4706](https://github.com/GeyserMC/Geyser/issues/4706))
+- Custom anvil recipes or custom smithing table ingredients/patterns ([GeyserMC/Geyser#4706](https://github.com/GeyserMC/Geyser/issues/4706)) - with the (unofficial) Geyser Recipe Fix plugin for Paper, this can be resolved.
 - Heights lower than -64 or higher than 320 in the overworld with extended height enabled, and heights lower than 0 or higher than 256 in other dimensions ([GeyserMC/Geyser#3804](https://github.com/GeyserMC/Geyser/issues/3804))
 - Dolphin's Grace potion effect visuals (effects should still work correctly)
 - Invisible item frames - however, there are Bedrock edition resource packs making *all* item frames invisible 
@@ -53,3 +53,8 @@ The following changes **are supported** with the [GeyserOptionalPack](/wiki/othe
 The following issues can be worked around with the [Hurricane](/wiki/other/hurricane) plugin/mod. However, these involve Java server
 modifications.
 - Movement issues around bamboo due to offset differences between Java and Bedrock.
+
+## Fixable with Geyser Recipe Fix (Unofficial) {#fixable-with-geyser-recipe-fix-unofficial}
+
+The following issues can be addressed using the [Geyser Recipe Fix](https://modrinth.com/plugin/geyser-recipe-fix) plugin which is unaffiliated with Geyser. This involves using a custom menu loaded through a Geyser texture pack for Bedrock (Geyser) players.
+- Custom anvil recipes or custom smithing table ingredients/patterns ([GeyserMC/Geyser#4706](https://github.com/GeyserMC/Geyser/issues/4706))
