@@ -49,6 +49,14 @@ export const providersData: Providers = {
             })
         },
         {
+            name: 'AxentHost',
+            url: 'https://axenthost.com/',
+            description: translate({
+                id: 'providers.provider.axenthost.description',
+                message: "Navigate to the server Variants tab and select GeyserMC. By default, vanilla Minecraft servers are created, so removing the server files in the Files tab before switching variant will be required to make a clean installation of Geyser. This happens since the reinstallation is a soft reinstall and the process doesn't remove the old server files coming from the vanilla variant."
+            })
+        },
+        {
             name: 'Cloud Nord',
             url: 'https://cloudnord.net/',
             description: translate({
